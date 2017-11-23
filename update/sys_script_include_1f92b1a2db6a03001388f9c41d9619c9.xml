@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_tieoy_dyn_wf.DynamicWorkflowUtil</api_name>
+        <client_callable>false</client_callable>
+        <description>Master script include containing needed functions for dynamic workflow handling</description>
+        <name>DynamicWorkflowUtil</name>
+        <script><![CDATA[var DynamicWorkflowUtil = Class.create();
+DynamicWorkflowUtil.prototype = {
+    initialize: function(task,_gs,_workflow) {
+    	this.task = task; 
+    	this._wf = _workflow;
+		
+    },
+	
+	MAPPING : {},
+	
+	// Get configuration based on the number
+    getConfiguration: function(number) {
+    	var conf = new GlideRecord('x_tieoy_dyn_wf_conf');
+		conf.addQuery('number', number);
+		conf.query();
+
+		if (conf.getRowCount() == 1) {
+		    conf.next();
+		    gs.info('DWF - getConfiguration: Found configuration named: ' + conf.name);
+
+			//Create configuration execution record
+			var confExecution = this._createConfigurationExecution(conf.sys_id);
+			gs.info('DWF - getConfiguration: Configuration execution record: ' + confExecution.number);
+		
+		    var ret = {
+		    	sys_id : conf.sys_id+"",
+		    	conf_execution_id : confExecution.sys_id+""
+		    };
+
+			return ret;
+		}
+		else {
+		    gs.error('DWF - getConfiguration: Could not found configuration with number: ' + number);
+		    return false;
+		}
+    },
+	
+	//Get ordered set of configuration for definition sys_id
+	getConfigurationSet: function(conf_sys_id,conf_execution_id){
+		var m2m = new GlideRecord('x_tieoy_dyn_wf_m2m_item2conf');
+		m2m.addQuery('dynamic_workflow_configuration', conf_sys_id);
+		m2m.orderBy('order');
+		m2m.query();
+
+		if (m2m.getRowCount() == 0) {
+			gs.error('DWF - getConfigurationSet: Could not found any workflow item in configuration number ' + conf.number);
+			return false;
+		}
+
+		//Create ordered array with item names and vars
+		var arr_items = [];
+
+		while (m2m.next()) {
+			//Get parameters
+			gs.info('DWF - getConfigurationSet: Workflow item: ' + m2m.dynamic_workflow_item.name);
+			
+		    arr_items.push({
+		    	order     : m2m.order+"",
+		    	item_id	  : m2m.dynamic_workflow_item+"",
+		    	workflow  : m2m.dynamic_workflow_item.workflow+"",
+		    	variables : {}
+		    });
+						
+		}
+
+		//Create workflow execution record
+		this._createWorkflowExecution(conf_execution_id,m2m.dynamic_workflow_item.sys_id);
+
+		return arr_items;
+
+	},
+
+	loadItemWFVariables: function(item,conf_sys_id,conf_execution_id) {
+		
+		//Create ordered array with item names and vars
+		var WFParamList = [];
+		var vars = {};
+
+		// Find parameters for the workflow item (both input and output + fill in the default values)
+		var defaultParameters = new GlideRecord('x_tieoy_dyn_wf_param');
+		defaultParameters.addQuery('dynamic_workflow_item', item);
+		defaultParameters.query();
+		
+		
+		while (defaultParameters.next()) {
+			//gs.info('Default workflow parameters: ' + defaultParameters.name + ' = ' + defaultParameters.default_value + ' type: ' + defaultParameters.type);
+			var parameters = new GlideRecord('x_tieoy_dyn_wf_param_conf');
+			parameters.addQuery('dynamic_workflow_configuration', conf_sys_id);
+			parameters.addQuery('dynamic_workflow_parameter', defaultParameters.sys_id);
+			parameters.query();
+			parameters.next();
+			
+			var evaluator = new GlideScopedEvaluator();
+			var variable = '';
+
+			if (defaultParameters.type == "Input") {
+				if (parameters.getRowCount() == 1) {					
+					//variable = evaluator.evaluateScript(parameters, 'value', null);
+					variable = evaluator.evaluateScript(parameters, 'value', this.MAPPING);
+					gs.info('DWF - loadItemWFVariables: Workflow parameter - CUSTOM: ' + parameters.dynamic_workflow_parameter.name + ' = ' + parameters.value + ' type: ' + defaultParameters.type + '; value: ' + variable);
+				} else {
+					//variable = evaluator.evaluateScript(defaultParameters, 'default_value', null);
+					variable = evaluator.evaluateScript(defaultParameters, 'default_value', this.MAPPING);
+					gs.info('DWF - loadItemWFVariables: Workflow parameters - DEFAULT: ' + defaultParameters.name + ' = ' + defaultParameters.default_value + ' type: ' + defaultParameters.type + '; value: ' + variable);
+				}
+								
+				//Set variables
+				vars[defaultParameters.variable_name] = variable+"";
+
+				//Create workflow parameter value record
+				gs.info('DWF - loadItemWFVariables: Create WF Parameter value record: ' + conf_execution_id +", "+ defaultParameters.sys_id +", "+ variable);
+				this._createWorkflowParameterValue(conf_execution_id,defaultParameters.sys_id,variable);
+				
+			}
+		}
+
+		WFParamList.push(vars);
+
+		return WFParamList;
+
+	},
+
+	storeWorkflowOutputs: function(item,conf_execution_id,flow_output) {
+		outputParameters = new GlideRecord('x_tieoy_dyn_wf_param');
+		outputParameters.addQuery('dynamic_workflow_item', item);
+		outputParameters.addQuery('type', "Output");
+		outputParameters.query();
+
+
+		if(outputParameters.getRowCount() < 1) {
+			gs.info('DWF - storeWorkflowOutputs: Could not found outputs');
+			return false;
+		}
+		
+		while (outputParameters.next()) {
+			
+			//read variable output name + default value
+			var var_name = outputParameters.variable_name+"";
+			var default_value = outputParameters.default_value+"";
+			var variable = '';
+			//read workflow output variable value
+			if( gs.nil(flow_output[var_name]) ) {
+				variable = 'N/A';
+			}else{
+				variable = flow_output[var_name];	
+			}
+			
+			//Check if output variable is object or array - both is defined as object - due to validator is not able to handle these ones directly
+			if ( typeof variable === 'object' ) {
+				variable = JSON.stringify(flow_output[var_name]);
+			}
+
+			//gs.info('DWF - storeWorkflowOutputs: Output - Default value: ' + default_value + '; Variable Name: ' + var_name + '; flow output variable value: '+ variable);
+
+			//Store variable into scratchpad
+			//this._wf.scratchpad[default_value] = variable;
+			this.MAPPING[default_value] = variable; 
+			gs.info('DWF - DEBUG - storeWorkflowOutputs: MAPPING['+ default_value + ']: ' + this.MAPPING[default_value]);
+
+			//Create workflow parameter value record
+			//return this._createWorkflowParameterValue(conf_execution_id,outputParameters.sys_id,variable);
+						
+		}
+	},
+	
+	_createConfigurationExecution: function(conf_id) {
+
+		var confExecution = new GlideRecord('x_tieoy_dyn_wf_exec');
+		confExecution.initialize();
+		confExecution.dynamic_workflow_configuration = conf_id;
+		confExecution.insert();
+		return confExecution;
+	},
+	
+	_createWorkflowParameterValue: function(confExecution_id,defaultParam_id,variable) {
+		var paramValue = new GlideRecord('x_tieoy_dyn_wf_param_val');
+	    paramValue.initialize();
+	    paramValue.value = variable;
+	    paramValue.dynamic_workflow_execution = confExecution_id;
+	    paramValue.dynamic_workflow_parameter = defaultParam_id;
+	    paramValue.insert();
+	    return paramValue;
+	},
+
+	_createWorkflowExecution: function(confExecution_id,dyn_wf_id) {
+		var item2exec = new GlideRecord('x_tieoy_dyn_wf_m2m_item2exec');
+        item2exec.initialize();
+        item2exec.dynamic_workflow_execution = confExecution_id;
+        item2exec.dynamic_workflow_item = dyn_wf_id;
+        item2exec.insert();
+        return item2exec;
+	},
+
+	type: 'DynamicWorkflowUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin.ivanepav</sys_created_by>
+        <sys_created_on>2017-11-23 11:36:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1f92b1a2db6a03001388f9c41d9619c9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>DynamicWorkflowUtil</sys_name>
+        <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
+        <sys_update_name>sys_script_include_1f92b1a2db6a03001388f9c41d9619c9</sys_update_name>
+        <sys_updated_by>admin.ivanepav</sys_updated_by>
+        <sys_updated_on>2017-11-23 11:59:34</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Dynamic workflow parameter" max_length="40" name="x_tieoy_dyn_wf_param" type="collection">
+        <element default="True" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Default value" max_length="1024" name="default_value" type="string"/>
+        <element label="Description" max_length="1024" name="description" type="string"/>
+        <element label="Dynamic workflow item" max_length="32" name="dynamic_workflow_item" reference="x_tieoy_dyn_wf_item" type="reference"/>
+        <element label="Name" max_length="255" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="True" label="Required" max_length="40" name="required" type="boolean"/>
+        <index name="index">
+            <element name="dynamic_workflow_item"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Dynamic workflow m2m item2conf" max_length="40" name="x_tieoy_dyn_wf_m2m_item2conf" type="collection">
+        <element label="Dynamic workflow configuration" max_length="32" name="dynamic_workflow_configuration" reference="x_tieoy_dyn_wf_conf" type="reference"/>
+        <element label="Dynamic workflow item" max_length="32" name="dynamic_workflow_item" reference="x_tieoy_dyn_wf_item" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="100" label="Order" max_length="40" name="order" type="integer"/>
+        <index name="index">
+            <element name="dynamic_workflow_configuration"/>
+        </index>
+        <index name="index2">
+            <element name="dynamic_workflow_item"/>
+        </index>
+    </element>
+</database>

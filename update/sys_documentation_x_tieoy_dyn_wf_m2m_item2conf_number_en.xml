@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="number" label="Number" language="en" table="x_tieoy_dyn_wf_m2m_item2conf">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <help/>
+            <hint/>
+            <label>Number</label>
+            <language>en</language>
+            <name>x_tieoy_dyn_wf_m2m_item2conf</name>
+            <plural>Numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2017-11-23 11:19:25</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>47bea1aedb2a03001388f9c41d9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Number</sys_name>
+            <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
+            <sys_update_name>sys_documentation_x_tieoy_dyn_wf_m2m_item2conf_number_en</sys_update_name>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2017-11-23 11:19:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="774190f01f1310005a3637b8ec8b70ef" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Dynamic workflow">ddf2b1a2db6a03001388f9c41d9619cd</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Configurations</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_tieoy_dyn_wf_conf</name>
+        <order>100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin.ivanepav</sys_created_by>
+        <sys_created_on>2017-11-23 11:40:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+        <sys_domain_path>!!!/</sys_domain_path>
+        <sys_id>793339a2db6a03001388f9c41d961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Configurations</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
+        <sys_update_name>sys_app_module_793339a2db6a03001388f9c41d961916</sys_update_name>
+        <sys_updated_by>admin.ivanepav</sys_updated_by>
+        <sys_updated_on>2017-11-23 11:40:08</sys_updated_on>
+        <timeline_page/>
+        <title>Configurations</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

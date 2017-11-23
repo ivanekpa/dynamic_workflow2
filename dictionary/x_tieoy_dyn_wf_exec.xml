@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Dynamic workflow execution" max_length="40" name="x_tieoy_dyn_wf_exec" type="collection">
+        <element label="Dynamic workflow configuration" max_length="32" name="dynamic_workflow_configuration" reference="x_tieoy_dyn_wf_conf" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="New" label="State" max_length="50" name="state" type="string"/>
+        <index name="index">
+            <element name="dynamic_workflow_configuration"/>
+        </index>
+    </element>
+</database>
