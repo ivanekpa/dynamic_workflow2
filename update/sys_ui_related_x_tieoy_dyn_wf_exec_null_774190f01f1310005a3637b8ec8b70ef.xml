@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
     <sys_ui_related sys_domain="774190f01f1310005a3637b8ec8b70ef" table="x_tieoy_dyn_wf_exec" version="2" view="">
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="Dynamic workflow execution - Default view" name="x_tieoy_dyn_wf_exec" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">5252b562db6a03001388f9c41d96193c</list_id>
-            <order_by/>
-            <position>0</position>
-            <related_list>x_tieoy_dyn_wf_m2m_item2exec.dynamic_workflow_execution</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>admin.ivanepav</sys_created_by>
-            <sys_created_on>2017-11-23 11:35:13</sys_created_on>
-            <sys_id>1a52b562db6a03001388f9c41d96193c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin.ivanepav</sys_updated_by>
-            <sys_updated_on>2017-11-23 11:35:13</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="Dynamic workflow execution - Default view" name="x_tieoy_dyn_wf_exec" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">5252b562db6a03001388f9c41d96193c</list_id>
-            <order_by/>
-            <position>1</position>
-            <related_list>x_tieoy_dyn_wf_param_value.dynamic_workflow_execution</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>admin.ivanepav</sys_created_by>
-            <sys_created_on>2017-11-23 11:35:13</sys_created_on>
-            <sys_id>1e52b562db6a03001388f9c41d96193c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin.ivanepav</sys_updated_by>
-            <sys_updated_on>2017-11-23 11:35:13</sys_updated_on>
-        </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Dynamic workflow execution - Default view</calculated_name>
             <filter/>

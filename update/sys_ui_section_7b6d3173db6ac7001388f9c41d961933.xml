@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="7b6d3173db6ac7001388f9c41d961933" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="x_tieoy_dyn_wf_param_conf" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2017-11-27 13:12:05</sys_created_on>
+            <sys_id>d0eeeefbdbaec7001388f9c41d9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_param_conf" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">7b6d3173db6ac7001388f9c41d961933</sys_ui_section>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2017-11-27 13:12:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dynamic_workflow_configuration</element>
+            <position>1</position>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2017-11-27 13:12:05</sys_created_on>
+            <sys_id>5ceeeefbdbaec7001388f9c41d9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_param_conf" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">7b6d3173db6ac7001388f9c41d961933</sys_ui_section>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2017-11-27 13:12:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dynamic_workflow_parameter</element>
+            <position>2</position>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2017-11-27 13:12:05</sys_created_on>
+            <sys_id>dceeeefbdbaec7001388f9c41d9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_param_conf" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">7b6d3173db6ac7001388f9c41d961933</sys_ui_section>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2017-11-27 13:12:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>value</element>
+            <position>3</position>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2017-11-27 13:12:05</sys_created_on>
+            <sys_id>50eeeefbdbaec7001388f9c41d9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_param_conf" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">7b6d3173db6ac7001388f9c41d961933</sys_ui_section>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2017-11-27 13:12:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2017-11-27 13:12:05</sys_created_on>
+            <sys_id>d0eeeefbdbaec7001388f9c41d9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_param_conf" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">7b6d3173db6ac7001388f9c41d961933</sys_ui_section>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2017-11-27 13:12:05</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>5</position>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2017-11-27 13:12:06</sys_created_on>
+            <sys_id>54eeeefbdbaec7001388f9c41d9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_param_conf" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">7b6d3173db6ac7001388f9c41d961933</sys_ui_section>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2017-11-27 13:12:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>6</position>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2017-11-27 13:12:06</sys_created_on>
+            <sys_id>d4eeeefbdbaec7001388f9c41d9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_param_conf" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">7b6d3173db6ac7001388f9c41d961933</sys_ui_section>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2017-11-27 13:12:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_on</element>
+            <position>7</position>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2017-11-27 13:12:06</sys_created_on>
+            <sys_id>58eeeefbdbaec7001388f9c41d9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_param_conf" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">7b6d3173db6ac7001388f9c41d961933</sys_ui_section>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2017-11-27 13:12:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_by</element>
+            <position>8</position>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2017-11-27 13:12:06</sys_created_on>
+            <sys_id>d8eeeefbdbaec7001388f9c41d9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_param_conf" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">7b6d3173db6ac7001388f9c41d961933</sys_ui_section>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2017-11-27 13:12:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_tieoy_dyn_wf_param_conf</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin.ivanepav</sys_created_by>
+            <sys_created_on>2017-11-27 09:36:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>7b6d3173db6ac7001388f9c41d961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_tieoy_dyn_wf_param_conf</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
+            <sys_update_name>sys_ui_section_7b6d3173db6ac7001388f9c41d961933</sys_update_name>
+            <sys_updated_by>admin.ivanepav</sys_updated_by>
+            <sys_updated_on>2017-11-27 09:36:03</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

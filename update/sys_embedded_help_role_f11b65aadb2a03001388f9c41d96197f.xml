@@ -2,7 +2,7 @@
 <record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_tieoy_dyn_wf.dynamic_workflow_parameter_value_user" name="x_tieoy_dyn_wf.dynamic_workflow_parameter_value_user">751b65aadb2a03001388f9c41d96197d</role>
+        <role/>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
         <sys_created_on>2017-11-23 11:03:30</sys_created_on>
