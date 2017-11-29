@@ -2,7 +2,7 @@
 <record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["e377712adb6a03001388f9c41d961958"]}</activity_stages>
+        <activity_stages>{"ends":["cc860d28db72c34094e4f3561d96199c"],"activities":{},"subflows":["22c8bde24f6f7604fba400818110c769","22c8bde24f6f7604fba400818110c769"],"stages":{}}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -10,10 +10,10 @@
         <condition/>
         <condition_type/>
         <description>Master workflow for exectuing defined workflows from configurations.</description>
-        <expected_sequences>a377712adb6a03001388f9c41d961960,6b77712adb6a03001388f9c41d96195c,e777712adb6a03001388f9c41d96195d,6777712adb6a03001388f9c41d9619ac,6f77712adb6a03001388f9c41d96195e,ef77712adb6a03001388f9c41d961958,6f77712adb6a03001388f9c41d961959</expected_sequences>
+        <expected_sequences>44860d28db72c34094e4f3561d96199b,dc860d28db72c34094e4f3561d9619a3,4c860d28db72c34094e4f3561d96198a,4886c528db72c34094e4f3561d96191b,d4860d28db72c34094e4f3561d9619ac,d0860d28db72c34094e4f3561d9619a5,50860d28db72c34094e4f3561d9619a2,d4860d28db72c34094e4f3561d9619a7</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>a377712adb6a03001388f9c41d961960,6b77712adb6a03001388f9c41d96195c,e777712adb6a03001388f9c41d96195d,6777712adb6a03001388f9c41d9619ac,e777712adb6a03001388f9c41d9619ab,6f77712adb6a03001388f9c41d96195e,e377712adb6a03001388f9c41d961958,ef77712adb6a03001388f9c41d961958,6f77712adb6a03001388f9c41d961959</full_sequences>
+        <full_sequences>44860d28db72c34094e4f3561d96199b,dc860d28db72c34094e4f3561d9619a3,4c860d28db72c34094e4f3561d96198a,4886c528db72c34094e4f3561d96191b,8d68c528db72c34094e4f3561d961903,d4860d28db72c34094e4f3561d9619ac,e6f64d68db72c34094e4f3561d961938,c0860d28db72c34094e4f3561d96199e,d0860d28db72c34094e4f3561d9619a5,44860d28db72c34094e4f3561d961983,cc860d28db72c34094e4f3561d96199c,50860d28db72c34094e4f3561d9619a2,d4860d28db72c34094e4f3561d9619a7</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>Dynamic workflow - Master</name>
@@ -28,13 +28,13 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">a377712adb6a03001388f9c41d961960</start>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>af77712adb6a03001388f9c41d961956</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-27 12:15:09</sys_updated_on>
+        <start display_value="Begin">44860d28db72c34094e4f3561d96199b</start>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>f776c528db72c34094e4f3561d961918</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:42:22</sys_updated_on>
         <table>global</table>
         <timezone/>
         <validated>true</validated>
@@ -52,7 +52,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>76f675e6db6a03001388f9c41d9619fc</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Dynamic workflow - Master</sys_name>
         <sys_overrides/>
         <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
         <sys_update_name>wf_workflow_76f675e6db6a03001388f9c41d9619fc</sys_update_name>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:27:45</sys_updated_on>
+        <sys_updated_on>2017-11-29 10:31:21</sys_updated_on>
         <table>global</table>
         <template>false</template>
         <vars/>
@@ -81,22 +81,22 @@
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>a377712adb6a03001388f9c41d961960</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>44860d28db72c34094e4f3561d96199b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Dynamic workflow - Master">af77712adb6a03001388f9c41d961956</workflow_version>
+        <workflow_version display_value="Dynamic workflow - Master">f776c528db72c34094e4f3561d961918</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=a377712adb6a03001388f9c41d961960"/>
+    <sys_variable_value action="delete_multiple" query="document_key=44860d28db72c34094e4f3561d96199b"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">a377712adb6a03001388f9c41d961960</activity>
+        <activity display_value="Begin">44860d28db72c34094e4f3561d96199b</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -109,12 +109,344 @@
         <order>0</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>a777712adb6a03001388f9c41d961960</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>44860d28db72c34094e4f3561d96199c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Workflow">f1afb4010a0a0b2c00d8f55e2372c728</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>11</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Close task</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>44860d28db72c34094e4f3561d961983</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Dynamic workflow - Master">f776c528db72c34094e4f3561d961918</workflow_version>
+        <x>264</x>
+        <y>506</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=44860d28db72c34094e4f3561d961983"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>44860d28db72c34094e4f3561d961983</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>cc860d28db72c34094e4f3561d961983</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
+        <value>cc860d28db72c34094e4f3561d961984</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>44860d28db72c34094e4f3561d961983</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>cc860d28db72c34094e4f3561d961983</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
+        <value>cc860d28db72c34094e4f3561d961984</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Close task">44860d28db72c34094e4f3561d961983</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>88860d28db72c34094e4f3561d961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Workflow">f1afb4010a0a0b2c00d8f55e2372c728</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>12</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Close task</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>c0860d28db72c34094e4f3561d96199e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Dynamic workflow - Master">f776c528db72c34094e4f3561d961918</workflow_version>
+        <x>38</x>
+        <y>506</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c0860d28db72c34094e4f3561d96199e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0860d28db72c34094e4f3561d96199e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>c4860d28db72c34094e4f3561d96199e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <value>c0860d28db72c34094e4f3561d96199f</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0860d28db72c34094e4f3561d96199e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>c4860d28db72c34094e4f3561d96199e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <value>c0860d28db72c34094e4f3561d96199f</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Close task">c0860d28db72c34094e4f3561d96199e</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>8c860d28db72c34094e4f3561d96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>13</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Create error event</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:38:46</sys_created_on>
+        <sys_id>e6f64d68db72c34094e4f3561d961938</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:41:18</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Dynamic workflow - Master">f776c528db72c34094e4f3561d961918</workflow_version>
+        <x>287</x>
+        <y>386</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e6f64d68db72c34094e4f3561d961938"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e6f64d68db72c34094e4f3561d961938</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:38:46</sys_created_on>
+        <sys_id>fe284d28db72c34094e4f3561d961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:38:46</sys_updated_on>
+        <value>var dwUtils = new DynamicWorkflowUtil(current,gs,workflow);&#13;
+var message = "Dynamic workflow configuration " + workflow.scratchpad.definition_number + " is NOT Active.";&#13;
+var severity = 4;&#13;
+&#13;
+//create event by &#13;
+dwUtils.createEVMEvent(message,severity);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e6f64d68db72c34094e4f3561d961938</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:38:46</sys_created_on>
+        <sys_id>fe284d28db72c34094e4f3561d961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:38:46</sys_updated_on>
+        <value>var dwUtils = new DynamicWorkflowUtil(current,gs,workflow);&#13;
+var message = "Dynamic workflow configuration " + workflow.scratchpad.definition_number + " is NOT Active.";&#13;
+var severity = 4;&#13;
+&#13;
+//create event by &#13;
+dwUtils.createEVMEvent(message,severity);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create error event">e6f64d68db72c34094e4f3561d961938</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:38:47</sys_created_on>
+        <sys_id>f6284d28db72c34094e4f3561d961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:38:47</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>14</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Create error event</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:39:45</sys_created_on>
+        <sys_id>8d68c528db72c34094e4f3561d961903</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:41:07</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Dynamic workflow - Master">f776c528db72c34094e4f3561d961918</workflow_version>
+        <x>41</x>
+        <y>387</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=8d68c528db72c34094e4f3561d961903"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d68c528db72c34094e4f3561d961903</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:39:45</sys_created_on>
+        <sys_id>8168c528db72c34094e4f3561d961904</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:40:48</sys_updated_on>
+        <value>var dwUtil = new DynamicWorkflowUtil(current,gs,workflow);&#13;
+var message = "Dynamic workflow configuration " + workflow.scratchpad.definition_number + " does not exist.";&#13;
+var severity = 4;&#13;
+&#13;
+//create event &#13;
+dwUtil.createEVMEvent(message,severity);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d68c528db72c34094e4f3561d961903</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:39:45</sys_created_on>
+        <sys_id>8168c528db72c34094e4f3561d961904</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:40:48</sys_updated_on>
+        <value>var dwUtil = new DynamicWorkflowUtil(current,gs,workflow);&#13;
+var message = "Dynamic workflow configuration " + workflow.scratchpad.definition_number + " does not exist.";&#13;
+var severity = 4;&#13;
+&#13;
+//create event &#13;
+dwUtil.createEVMEvent(message,severity);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create error event">8d68c528db72c34094e4f3561d961903</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:39:45</sys_created_on>
+        <sys_id>c968416cdb72c34094e4f3561d9619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:39:45</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
@@ -131,59 +463,59 @@
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>e777712adb6a03001388f9c41d96195d</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>4c860d28db72c34094e4f3561d96198a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Dynamic workflow - Master">af77712adb6a03001388f9c41d961956</workflow_version>
-        <x>58</x>
-        <y>231</y>
+        <workflow_version display_value="Dynamic workflow - Master">f776c528db72c34094e4f3561d961918</workflow_version>
+        <x>33</x>
+        <y>243</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=e777712adb6a03001388f9c41d96195d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4c860d28db72c34094e4f3561d96198a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>e777712adb6a03001388f9c41d96195d</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>2f77712adb6a03001388f9c41d96195d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <value>1</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>e777712adb6a03001388f9c41d96195d</document_key>
+        <document_key>4c860d28db72c34094e4f3561d96198a</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6b77712adb6a03001388f9c41d96195d</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>40860d28db72c34094e4f3561d96198b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
         <value/>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>e777712adb6a03001388f9c41d96195d</document_key>
+        <document_key>4c860d28db72c34094e4f3561d96198a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>84860d28db72c34094e4f3561d96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4c860d28db72c34094e4f3561d96198a</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>ef77712adb6a03001388f9c41d96195d</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>c8860d28db72c34094e4f3561d96198b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
         <value>answer = ifScript();&#13;
 function ifScript() {&#13;
 	if ( workflow.scratchpad.definition != false ) {&#13;
@@ -196,43 +528,43 @@ function ifScript() {&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>e777712adb6a03001388f9c41d96195d</document_key>
+        <document_key>4c860d28db72c34094e4f3561d96198a</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6b77712adb6a03001388f9c41d96195d</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>40860d28db72c34094e4f3561d96198b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
         <value/>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>e777712adb6a03001388f9c41d96195d</document_key>
+        <document_key>4c860d28db72c34094e4f3561d96198a</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>2f77712adb6a03001388f9c41d96195d</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>84860d28db72c34094e4f3561d96198b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
         <value>1</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>e777712adb6a03001388f9c41d96195d</document_key>
+        <document_key>4c860d28db72c34094e4f3561d96198a</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>ef77712adb6a03001388f9c41d96195d</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>c8860d28db72c34094e4f3561d96198b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
         <value>answer = ifScript();&#13;
 function ifScript() {&#13;
 	if ( workflow.scratchpad.definition != false ) {&#13;
@@ -244,7 +576,7 @@ function ifScript() {&#13;
         <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Definition not empty?">e777712adb6a03001388f9c41d96195d</activity>
+        <activity display_value="Definition not empty?">4c860d28db72c34094e4f3561d96198a</activity>
         <condition>activity.result == 'no'</condition>
         <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
         <condition_type>standard</condition_type>
@@ -257,15 +589,15 @@ function ifScript() {&#13;
         <order>200</order>
         <short_description/>
         <skip_during_generate>true</skip_during_generate>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>2777712adb6a03001388f9c41d96195e</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>84860d28db72c34094e4f3561d96198c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Definition not empty?">e777712adb6a03001388f9c41d96195d</activity>
+        <activity display_value="Definition not empty?">4c860d28db72c34094e4f3561d96198a</activity>
         <condition>activity.result == 'yes'</condition>
         <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
         <condition_type>standard</condition_type>
@@ -278,12 +610,12 @@ function ifScript() {&#13;
         <order>100</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>a777712adb6a03001388f9c41d96195e</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>80860d28db72c34094e4f3561d96198c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -300,20 +632,20 @@ function ifScript() {&#13;
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>e377712adb6a03001388f9c41d961958</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>cc860d28db72c34094e4f3561d96199c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Dynamic workflow - Master">af77712adb6a03001388f9c41d961956</workflow_version>
-        <x>29</x>
-        <y>502</y>
+        <workflow_version display_value="Dynamic workflow - Master">f776c528db72c34094e4f3561d961918</workflow_version>
+        <x>32</x>
+        <y>639</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=e377712adb6a03001388f9c41d961958"/>
+    <sys_variable_value action="delete_multiple" query="document_key=cc860d28db72c34094e4f3561d96199c"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Parallel Flow Launcher">35ef56111b211100adca1e094f071315</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -329,138 +661,107 @@ function ifScript() {&#13;
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6f77712adb6a03001388f9c41d961959</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>d4860d28db72c34094e4f3561d9619a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Dynamic workflow - Master">af77712adb6a03001388f9c41d961956</workflow_version>
-        <x>874</x>
-        <y>163</y>
+        <workflow_version display_value="Dynamic workflow - Master">f776c528db72c34094e4f3561d961918</workflow_version>
+        <x>933</x>
+        <y>160</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=6f77712adb6a03001388f9c41d961959"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d4860d28db72c34094e4f3561d9619a7"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
-        <order>350</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>2777712adb6a03001388f9c41d96195b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <value/>
-        <variable display_value="">428bf90eff1331009267ffffffffff80</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>2b77712adb6a03001388f9c41d96195a</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>10860d28db72c34094e4f3561d9619a9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value>workflow.scratchpad.item.variables</value>
         <variable display_value="">713142e11b211100adca1e094f0713f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
-        <order>600</order>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
+        <order>350</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6377712adb6a03001388f9c41d96195b</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>14860d28db72c34094e4f3561d9619aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <value>1</value>
-        <variable display_value="">0a2b9e591b221100adca1e094f07130e</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6777712adb6a03001388f9c41d96195a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value/>
-        <variable display_value="">d698838a1b121100adca1e094f071315</variable>
+        <variable display_value="">428bf90eff1331009267ffffffffff80</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
-        <order>310</order>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
+        <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6f77712adb6a03001388f9c41d96195b</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>50860d28db72c34094e4f3561d9619a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <value>// This script can be used to provide the workflows(s) to use for each sub-flow execution.  If a single workflow is&#13;
-// to be used for every sub-flow then simply specify that name or ID here.  Otherwise, if separate workflows may&#13;
-// be needed, then perhaps use a WorkflowCoordinator instance, which can be created or referenced here.  &#13;
-//&#13;
-// -- Use one of the methods below --&#13;
-//&#13;
-// METHOD 1:  Provide a name of a workflow&#13;
-//&#13;
-//      'MyWorkflow'&#13;
-workflow.scratchpad.item.workflow&#13;
-//&#13;
-//&#13;
-// METHOD 2:  Provide a sys_id of a workflow via a variable&#13;
-//&#13;
-//       myWorkflow;&#13;
-//&#13;
-//&#13;
-// METHOD 3:  Create a WorkflowCoordinator with parameters for each flow to launch.  &#13;
-//                     The first two sub-flows will be the AllocateServer workflow and the last will be the SetupLoadBalancer workflow&#13;
-//&#13;
-//&#13;
-//        coordinator = new WorkflowCoordinator( {workflow:'AllocateServer'} );&#13;
-//        coordinator.add( {u_serverName:'Tomcat1'} );&#13;
-//        coordinator.add( {u_serverName:'Tomcat2'} );&#13;
-//        coordinator.add( {u_portlist: ['8080','8081,'8082'] },  'SetupLoadBalancer' );&#13;
-//&#13;
-//        coordinator;         // THIS MUST BE THE LAST LINE&#13;
-//&#13;
-//&#13;
-// METHOD 4:  Have a script include return a workflow name or ID or have it return a WorkflowCoordinator instance.&#13;
-//&#13;
-//         var siteType = 'BackupSite';&#13;
-//         var numTomcats = 4;&#13;
-//&#13;
-//         SiteBuilder.build(siteType, numTomcats);     // LAST LINE!  This function returns a pre-configured WorkflowCoordinator&#13;
-//                          &#13;
-&#13;
-</value>
-        <variable display_value="">22dea7431b211100adca1e094f0713f2</variable>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">7608dbca1b121100adca1e094f071355</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>54860d28db72c34094e4f3561d9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <value>5</value>
+        <variable display_value="">7b81c6731b211100adca1e094f07136e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>58860d28db72c34094e4f3561d9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <value>// To access the flow that completed, use the 'flow' variable.&#13;
+//  &#13;
+//     var flowOutput = flow.output;&#13;
+//&#13;
+&#13;
+var dwUtils = new DynamicWorkflowUtil(current,gs,workflow);&#13;
+dwUtils.storeWorkflowOutputs(workflow.scratchpad.item.item_id,workflow.scratchpad.definition.conf_execution_id,flow.output);</value>
+        <variable display_value="">006b9e591b221100adca1e094f0713a1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
         <order>900</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>a377712adb6a03001388f9c41d96195a</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>94860d28db72c34094e4f3561d9619a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value>// To access the set of completed workflows use the 'coordinator' variable.&#13;
 //&#13;
 //  var flow1Result = coordinator.getFlow(1).output;&#13;
@@ -470,133 +771,43 @@ workflow.scratchpad.item.workflow&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
-        <order>800</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>ab77712adb6a03001388f9c41d96195b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <value>0</value>
-        <variable display_value="">662e36101b221100adca1e094f0713a0</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>af77712adb6a03001388f9c41d96195a</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>98860d28db72c34094e4f3561d9619a9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value>25</value>
         <variable display_value="">e44186731b211100adca1e094f0713e0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
-        <order>700</order>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
+        <order>800</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>e777712adb6a03001388f9c41d96195b</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>9c860d28db72c34094e4f3561d9619aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <value>// To access the flow that completed, use the 'flow' variable.&#13;
-//  &#13;
-//     var flowOutput = flow.output;&#13;
-//&#13;
-&#13;
-var dwUtils = new DynamicWorkflowUtil(current,gs,workflow);&#13;
-dwUtils.storeWorkflowOutputs(workflow.scratchpad.item.item_id,workflow.scratchpad.definition.conf_execution_id,flow.output);</value>
-        <variable display_value="">006b9e591b221100adca1e094f0713a1</variable>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">662e36101b221100adca1e094f0713a0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
-        <order>500</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>eb77712adb6a03001388f9c41d96195a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <value>5</value>
-        <variable display_value="">7b81c6731b211100adca1e094f07136e</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>ef77712adb6a03001388f9c41d961959</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <value>1</value>
-        <variable display_value="">7608dbca1b121100adca1e094f071355</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>2b77712adb6a03001388f9c41d96195a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <value>workflow.scratchpad.item.variables</value>
-        <variable display_value="">713142e11b211100adca1e094f0713f0</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>ef77712adb6a03001388f9c41d961959</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <value>1</value>
-        <variable display_value="">7608dbca1b121100adca1e094f071355</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6777712adb6a03001388f9c41d96195a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <value/>
-        <variable display_value="">d698838a1b121100adca1e094f071315</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
         <order>310</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6f77712adb6a03001388f9c41d96195b</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>d0860d28db72c34094e4f3561d9619ab</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value>// This script can be used to provide the workflows(s) to use for each sub-flow execution.  If a single workflow is&#13;
 // to be used for every sub-flow then simply specify that name or ID here.  Otherwise, if separate workflows may&#13;
 // be needed, then perhaps use a WorkflowCoordinator instance, which can be created or referenced here.  &#13;
@@ -639,71 +850,192 @@ workflow.scratchpad.item.workflow&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
-        <order>350</order>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
+        <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>2777712adb6a03001388f9c41d96195b</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>d8860d28db72c34094e4f3561d9619a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value/>
-        <variable display_value="">428bf90eff1331009267ffffffffff80</variable>
+        <variable display_value="">d698838a1b121100adca1e094f071315</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>af77712adb6a03001388f9c41d96195a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <value>25</value>
-        <variable display_value="">e44186731b211100adca1e094f0713e0</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
-        <order>500</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>eb77712adb6a03001388f9c41d96195a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <value>5</value>
-        <variable display_value="">7b81c6731b211100adca1e094f07136e</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
         <order>600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6377712adb6a03001388f9c41d96195b</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>dc860d28db72c34094e4f3561d9619a9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value>1</value>
         <variable display_value="">0a2b9e591b221100adca1e094f07130e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>10860d28db72c34094e4f3561d9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <value>workflow.scratchpad.item.variables</value>
+        <variable display_value="">713142e11b211100adca1e094f0713f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>50860d28db72c34094e4f3561d9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">7608dbca1b121100adca1e094f071355</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>d8860d28db72c34094e4f3561d9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <value/>
+        <variable display_value="">d698838a1b121100adca1e094f071315</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>d0860d28db72c34094e4f3561d9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <value>// This script can be used to provide the workflows(s) to use for each sub-flow execution.  If a single workflow is&#13;
+// to be used for every sub-flow then simply specify that name or ID here.  Otherwise, if separate workflows may&#13;
+// be needed, then perhaps use a WorkflowCoordinator instance, which can be created or referenced here.  &#13;
+//&#13;
+// -- Use one of the methods below --&#13;
+//&#13;
+// METHOD 1:  Provide a name of a workflow&#13;
+//&#13;
+//      'MyWorkflow'&#13;
+workflow.scratchpad.item.workflow&#13;
+//&#13;
+//&#13;
+// METHOD 2:  Provide a sys_id of a workflow via a variable&#13;
+//&#13;
+//       myWorkflow;&#13;
+//&#13;
+//&#13;
+// METHOD 3:  Create a WorkflowCoordinator with parameters for each flow to launch.  &#13;
+//                     The first two sub-flows will be the AllocateServer workflow and the last will be the SetupLoadBalancer workflow&#13;
+//&#13;
+//&#13;
+//        coordinator = new WorkflowCoordinator( {workflow:'AllocateServer'} );&#13;
+//        coordinator.add( {u_serverName:'Tomcat1'} );&#13;
+//        coordinator.add( {u_serverName:'Tomcat2'} );&#13;
+//        coordinator.add( {u_portlist: ['8080','8081,'8082'] },  'SetupLoadBalancer' );&#13;
+//&#13;
+//        coordinator;         // THIS MUST BE THE LAST LINE&#13;
+//&#13;
+//&#13;
+// METHOD 4:  Have a script include return a workflow name or ID or have it return a WorkflowCoordinator instance.&#13;
+//&#13;
+//         var siteType = 'BackupSite';&#13;
+//         var numTomcats = 4;&#13;
+//&#13;
+//         SiteBuilder.build(siteType, numTomcats);     // LAST LINE!  This function returns a pre-configured WorkflowCoordinator&#13;
+//                          &#13;
+&#13;
+</value>
+        <variable display_value="">22dea7431b211100adca1e094f0713f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>14860d28db72c34094e4f3561d9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <value/>
+        <variable display_value="">428bf90eff1331009267ffffffffff80</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>98860d28db72c34094e4f3561d9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <value>25</value>
+        <variable display_value="">e44186731b211100adca1e094f0713e0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>54860d28db72c34094e4f3561d9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <value>5</value>
+        <variable display_value="">7b81c6731b211100adca1e094f07136e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>dc860d28db72c34094e4f3561d9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">0a2b9e591b221100adca1e094f07130e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
         <order>700</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>e777712adb6a03001388f9c41d96195b</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>58860d28db72c34094e4f3561d9619aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value>// To access the flow that completed, use the 'flow' variable.&#13;
 //  &#13;
 //     var flowOutput = flow.output;&#13;
@@ -715,29 +1047,29 @@ dwUtils.storeWorkflowOutputs(workflow.scratchpad.item.item_id,workflow.scratchpa
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
         <order>800</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>ab77712adb6a03001388f9c41d96195b</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>9c860d28db72c34094e4f3561d9619aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value>0</value>
         <variable display_value="">662e36101b221100adca1e094f0713a0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d961959</document_key>
+        <document_key>d4860d28db72c34094e4f3561d9619a7</document_key>
         <order>900</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>a377712adb6a03001388f9c41d96195a</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>94860d28db72c34094e4f3561d9619a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value>// To access the set of completed workflows use the 'coordinator' variable.&#13;
 //&#13;
 //  var flow1Result = coordinator.getFlow(1).output;&#13;
@@ -746,7 +1078,7 @@ dwUtils.storeWorkflowOutputs(workflow.scratchpad.item.item_id,workflow.scratchpa
         <variable display_value="">e47e76101b221100adca1e094f07134e</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Execute item">6f77712adb6a03001388f9c41d961959</activity>
+        <activity display_value="Execute item">d4860d28db72c34094e4f3561d9619a7</activity>
         <condition>true</condition>
         <condition_default display_value="Finished">4ae182211b311100adca1e094f07131d</condition_default>
         <condition_type>standard</condition_type>
@@ -759,12 +1091,12 @@ dwUtils.storeWorkflowOutputs(workflow.scratchpad.item.item_id,workflow.scratchpa
         <order>200</order>
         <short_description>Completed successfully</short_description>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>a377712adb6a03001388f9c41d96195c</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>9c860d28db72c34094e4f3561d9619ab</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -781,31 +1113,31 @@ dwUtils.storeWorkflowOutputs(workflow.scratchpad.item.item_id,workflow.scratchpa
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6777712adb6a03001388f9c41d9619ac</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>d4860d28db72c34094e4f3561d9619ac</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Dynamic workflow - Master">af77712adb6a03001388f9c41d961956</workflow_version>
-        <x>296</x>
-        <y>16</y>
+        <workflow_version display_value="Dynamic workflow - Master">f776c528db72c34094e4f3561d961918</workflow_version>
+        <x>469</x>
+        <y>25</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=6777712adb6a03001388f9c41d9619ac"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d4860d28db72c34094e4f3561d9619ac"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6777712adb6a03001388f9c41d9619ac</document_key>
+        <document_key>d4860d28db72c34094e4f3561d9619ac</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>e777712adb6a03001388f9c41d9619ac</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>d8860d28db72c34094e4f3561d9619ac</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value>var dwUtils = new DynamicWorkflowUtil(current,gs,workflow);&#13;
 &#13;
 workflow.scratchpad.configurationSet = dwUtils.getConfigurationSet(workflow.scratchpad.definition.sys_id,workflow.scratchpad.definition.conf_execution_id);&#13;
@@ -816,15 +1148,15 @@ workflow.info("Configuration set: " + workflow.scratchpad.configurationSet);&#13
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6777712adb6a03001388f9c41d9619ac</document_key>
+        <document_key>d4860d28db72c34094e4f3561d9619ac</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>e777712adb6a03001388f9c41d9619ac</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>d8860d28db72c34094e4f3561d9619ac</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value>var dwUtils = new DynamicWorkflowUtil(current,gs,workflow);&#13;
 &#13;
 workflow.scratchpad.configurationSet = dwUtils.getConfigurationSet(workflow.scratchpad.definition.sys_id,workflow.scratchpad.definition.conf_execution_id);&#13;
@@ -834,7 +1166,7 @@ workflow.info("Configuration set: " + workflow.scratchpad.configurationSet);&#13
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Get configuration set">6777712adb6a03001388f9c41d9619ac</activity>
+        <activity display_value="Get configuration set">d4860d28db72c34094e4f3561d9619ac</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -847,12 +1179,12 @@ workflow.info("Configuration set: " + workflow.scratchpad.configurationSet);&#13
         <order>0</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>2f77712adb6a03001388f9c41d9619ac</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>90860d28db72c34094e4f3561d9619ad</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -869,31 +1201,31 @@ workflow.info("Configuration set: " + workflow.scratchpad.configurationSet);&#13
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6b77712adb6a03001388f9c41d96195c</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>dc860d28db72c34094e4f3561d9619a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Dynamic workflow - Master">af77712adb6a03001388f9c41d961956</workflow_version>
+        <workflow_version display_value="Dynamic workflow - Master">f776c528db72c34094e4f3561d961918</workflow_version>
         <x>20</x>
         <y>113</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=6b77712adb6a03001388f9c41d96195c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=dc860d28db72c34094e4f3561d9619a3"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6b77712adb6a03001388f9c41d96195c</document_key>
+        <document_key>dc860d28db72c34094e4f3561d9619a3</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>eb77712adb6a03001388f9c41d96195c</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>d0860d28db72c34094e4f3561d9619a4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value>workflow.scratchpad.definition_number = workflow.inputs.u_workflow_inputs;&#13;
 workflow.info("Definition Number: " + workflow.scratchpad.definition_number);&#13;
 &#13;
@@ -909,15 +1241,15 @@ workflow.info("Definition Execution sys_id: " + workflow.scratchpad.definition.c
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6b77712adb6a03001388f9c41d96195c</document_key>
+        <document_key>dc860d28db72c34094e4f3561d9619a3</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>eb77712adb6a03001388f9c41d96195c</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>d0860d28db72c34094e4f3561d9619a4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value>workflow.scratchpad.definition_number = workflow.inputs.u_workflow_inputs;&#13;
 workflow.info("Definition Number: " + workflow.scratchpad.definition_number);&#13;
 &#13;
@@ -932,7 +1264,7 @@ workflow.info("Definition Execution sys_id: " + workflow.scratchpad.definition.c
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Get Definition Number + Execution ID">6b77712adb6a03001388f9c41d96195c</activity>
+        <activity display_value="Get Definition Number + Execution ID">dc860d28db72c34094e4f3561d9619a3</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -945,21 +1277,21 @@ workflow.info("Definition Execution sys_id: " + workflow.scratchpad.definition.c
         <order>0</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>2377712adb6a03001388f9c41d96195d</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>98860d28db72c34094e4f3561d9619a4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
-        <activity_definition display_value="Log Message">396807940a0a0b5c00afd9f67d9fd7a2</activity_definition>
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
-        <databus_lookup_id>6</databus_lookup_id>
+        <databus_lookup_id>10</databus_lookup_id>
         <height/>
         <input>{}</input>
         <is_parent>false</is_parent>
-        <name>Log invalid number</name>
+        <name>Is Active?</name>
         <new_activity_definition/>
         <notes/>
         <out_of_date>false</out_of_date>
@@ -967,68 +1299,159 @@ workflow.info("Definition Execution sys_id: " + workflow.scratchpad.definition.c
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>e777712adb6a03001388f9c41d9619ab</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>4886c528db72c34094e4f3561d96191b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Dynamic workflow - Master">af77712adb6a03001388f9c41d961956</workflow_version>
-        <x>27</x>
-        <y>377</y>
+        <workflow_version display_value="Dynamic workflow - Master">f776c528db72c34094e4f3561d961918</workflow_version>
+        <x>246</x>
+        <y>24</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=e777712adb6a03001388f9c41d9619ab"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4886c528db72c34094e4f3561d96191b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>e777712adb6a03001388f9c41d9619ab</document_key>
-        <order>1</order>
+        <document_key>4886c528db72c34094e4f3561d96191b</document_key>
+        <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6b77712adb6a03001388f9c41d9619ab</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>0086c528db72c34094e4f3561d96191d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <value>Definition with id - ${workflow.scratchpad.definition_id} - is not valid.</value>
-        <variable display_value="">c35dbd1a0a0a0ba96248a7092864142d</variable>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
+        <value>answer = ifScript();&#13;
+function ifScript() {&#13;
+	if ( workflow.scratchpad.definition['active'] == 'true' ) {&#13;
+		return 'yes';&#13;
+	}&#13;
+	return 'no';&#13;
+}&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>e777712adb6a03001388f9c41d9619ab</document_key>
-        <order>1</order>
+        <document_key>4886c528db72c34094e4f3561d96191b</document_key>
+        <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6b77712adb6a03001388f9c41d9619ab</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>8486c528db72c34094e4f3561d96191c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <value>Definition with id - ${workflow.scratchpad.definition_id} - is not valid.</value>
-        <variable display_value="">c35dbd1a0a0a0ba96248a7092864142d</variable>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
+        <value/>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4886c528db72c34094e4f3561d96191b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>c886c528db72c34094e4f3561d96191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4886c528db72c34094e4f3561d96191b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>8486c528db72c34094e4f3561d96191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
+        <value/>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4886c528db72c34094e4f3561d96191b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>c886c528db72c34094e4f3561d96191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4886c528db72c34094e4f3561d96191b</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>0086c528db72c34094e4f3561d96191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
+        <value>answer = ifScript();&#13;
+function ifScript() {&#13;
+	if ( workflow.scratchpad.definition['active'] == 'true' ) {&#13;
+		return 'yes';&#13;
+	}&#13;
+	return 'no';&#13;
+}&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Log invalid number">e777712adb6a03001388f9c41d9619ab</activity>
-        <condition>true</condition>
-        <condition_default/>
+        <activity display_value="Is Active?">4886c528db72c34094e4f3561d96191b</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>48860d28db72c34094e4f3561d961982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Is Active?">4886c528db72c34094e4f3561d96191b</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
         <condition_type>standard</condition_type>
         <else_flag>false</else_flag>
         <error>false</error>
         <event>false</event>
         <event_name/>
         <is_positive>true</is_positive>
-        <name>Always</name>
-        <order>0</order>
+        <name>Yes</name>
+        <order>100</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>af77712adb6a03001388f9c41d9619ab</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>04860d28db72c34094e4f3561d961982</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -1045,31 +1468,31 @@ workflow.info("Definition Execution sys_id: " + workflow.scratchpad.definition.c
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>ef77712adb6a03001388f9c41d961958</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>50860d28db72c34094e4f3561d9619a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Dynamic workflow - Master">af77712adb6a03001388f9c41d961956</workflow_version>
-        <x>639</x>
-        <y>187</y>
+        <workflow_version display_value="Dynamic workflow - Master">f776c528db72c34094e4f3561d961918</workflow_version>
+        <x>708</x>
+        <y>152</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=ef77712adb6a03001388f9c41d961958"/>
+    <sys_variable_value action="delete_multiple" query="document_key=50860d28db72c34094e4f3561d9619a2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>ef77712adb6a03001388f9c41d961958</document_key>
+        <document_key>50860d28db72c34094e4f3561d9619a2</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6377712adb6a03001388f9c41d961959</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>d8860d28db72c34094e4f3561d9619a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value>workflow.scratchpad.item = workflow.scratchpad.configurationSet.shift();&#13;
 &#13;
 var dwUtils = new DynamicWorkflowUtil(current,gs,workflow);&#13;
@@ -1080,15 +1503,15 @@ workflow.info('Item - JSON: ' + JSON.stringify(workflow.scratchpad.item));</valu
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>ef77712adb6a03001388f9c41d961958</document_key>
+        <document_key>50860d28db72c34094e4f3561d9619a2</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6377712adb6a03001388f9c41d961959</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>d8860d28db72c34094e4f3561d9619a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value>workflow.scratchpad.item = workflow.scratchpad.configurationSet.shift();&#13;
 &#13;
 var dwUtils = new DynamicWorkflowUtil(current,gs,workflow);&#13;
@@ -1098,7 +1521,7 @@ workflow.info('Item - JSON: ' + JSON.stringify(workflow.scratchpad.item));</valu
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Prepare inputs for configuration item">ef77712adb6a03001388f9c41d961958</activity>
+        <activity display_value="Prepare inputs for configuration item">50860d28db72c34094e4f3561d9619a2</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1111,12 +1534,12 @@ workflow.info('Item - JSON: ' + JSON.stringify(workflow.scratchpad.item));</valu
         <order>0</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>a777712adb6a03001388f9c41d961959</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>94860d28db72c34094e4f3561d9619a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
@@ -1133,31 +1556,45 @@ workflow.info('Item - JSON: ' + JSON.stringify(workflow.scratchpad.item));</valu
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6f77712adb6a03001388f9c41d96195e</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>d0860d28db72c34094e4f3561d9619a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Dynamic workflow - Master">af77712adb6a03001388f9c41d961956</workflow_version>
-        <x>416</x>
-        <y>191</y>
+        <workflow_version display_value="Dynamic workflow - Master">f776c528db72c34094e4f3561d961918</workflow_version>
+        <x>476</x>
+        <y>152</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=6f77712adb6a03001388f9c41d96195e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d0860d28db72c34094e4f3561d9619a5"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d96195e</document_key>
+        <document_key>d0860d28db72c34094e4f3561d9619a5</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>1c860d28db72c34094e4f3561d9619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d0860d28db72c34094e4f3561d9619a5</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6777712adb6a03001388f9c41d96195f</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>50860d28db72c34094e4f3561d9619a6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value>answer = ifScript();&#13;
 function ifScript() {&#13;
 	if ( workflow.scratchpad.configurationSet.length &gt; 0 ){&#13;
@@ -1169,71 +1606,57 @@ function ifScript() {&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d96195e</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>a377712adb6a03001388f9c41d96195f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <value>1</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d96195e</document_key>
+        <document_key>d0860d28db72c34094e4f3561d9619a5</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>ef77712adb6a03001388f9c41d96195e</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>d4860d28db72c34094e4f3561d9619a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value/>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d96195e</document_key>
+        <document_key>d0860d28db72c34094e4f3561d9619a5</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>ef77712adb6a03001388f9c41d96195e</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>d4860d28db72c34094e4f3561d9619a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value/>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d96195e</document_key>
+        <document_key>d0860d28db72c34094e4f3561d9619a5</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>a377712adb6a03001388f9c41d96195f</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>1c860d28db72c34094e4f3561d9619a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value>1</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>6f77712adb6a03001388f9c41d96195e</document_key>
+        <document_key>d0860d28db72c34094e4f3561d9619a5</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6777712adb6a03001388f9c41d96195f</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>50860d28db72c34094e4f3561d9619a6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
         <value>answer = ifScript();&#13;
 function ifScript() {&#13;
 	if ( workflow.scratchpad.configurationSet.length &gt; 0 ){&#13;
@@ -1244,7 +1667,7 @@ function ifScript() {&#13;
         <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Process configuration set">6f77712adb6a03001388f9c41d96195e</activity>
+        <activity display_value="Process configuration set">d0860d28db72c34094e4f3561d9619a5</activity>
         <condition>activity.result == 'no'</condition>
         <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
         <condition_type>standard</condition_type>
@@ -1257,15 +1680,15 @@ function ifScript() {&#13;
         <order>200</order>
         <short_description/>
         <skip_during_generate>true</skip_during_generate>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>ab77712adb6a03001388f9c41d96195f</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>18860d28db72c34094e4f3561d9619a6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Process configuration set">6f77712adb6a03001388f9c41d96195e</activity>
+        <activity display_value="Process configuration set">d0860d28db72c34094e4f3561d9619a5</activity>
         <condition>activity.result == 'yes'</condition>
         <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
         <condition_type>standard</condition_type>
@@ -1278,123 +1701,316 @@ function ifScript() {&#13;
         <order>100</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>2f77712adb6a03001388f9c41d96195f</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>1c860d28db72c34094e4f3561d9619a6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="No">2777712adb6a03001388f9c41d96195e</condition>
-        <from display_value="Definition not empty?">e777712adb6a03001388f9c41d96195d</from>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6777712adb6a03001388f9c41d9619ae</sys_id>
+        <condition display_value="Yes">1c860d28db72c34094e4f3561d9619a6</condition>
+        <from display_value="Process configuration set">d0860d28db72c34094e4f3561d9619a5</from>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>10860d28db72c34094e4f3561d9619b3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <to display_value="Log invalid number">e777712adb6a03001388f9c41d9619ab</to>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <to display_value="Prepare inputs for configuration item">50860d28db72c34094e4f3561d9619a2</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Yes">2f77712adb6a03001388f9c41d96195f</condition>
-        <from display_value="Process configuration set">6f77712adb6a03001388f9c41d96195e</from>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>6b77712adb6a03001388f9c41d9619ae</sys_id>
+        <condition display_value="No">18860d28db72c34094e4f3561d9619a6</condition>
+        <from display_value="Process configuration set">d0860d28db72c34094e4f3561d9619a5</from>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>14860d28db72c34094e4f3561d9619b3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <to display_value="Prepare inputs for configuration item">ef77712adb6a03001388f9c41d961958</to>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <to display_value="End">cc860d28db72c34094e4f3561d96199c</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Finished">a377712adb6a03001388f9c41d96195c</condition>
-        <from display_value="Execute item">6f77712adb6a03001388f9c41d961959</from>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>af77712adb6a03001388f9c41d9619ad</sys_id>
+        <condition display_value="No">84860d28db72c34094e4f3561d96198c</condition>
+        <from display_value="Definition not empty?">4c860d28db72c34094e4f3561d96198a</from>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:40:59</sys_created_on>
+        <sys_id>47a8456cdb72c34094e4f3561d9619a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <to display_value="Process configuration set">6f77712adb6a03001388f9c41d96195e</to>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:40:59</sys_updated_on>
+        <to display_value="Create error event">8d68c528db72c34094e4f3561d961903</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Yes">a777712adb6a03001388f9c41d96195e</condition>
-        <from display_value="Definition not empty?">e777712adb6a03001388f9c41d96195d</from>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>e377712adb6a03001388f9c41d9619ae</sys_id>
+        <condition display_value="Always">8c860d28db72c34094e4f3561d96199e</condition>
+        <from display_value="Close task">c0860d28db72c34094e4f3561d96199e</from>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>50860d28db72c34094e4f3561d9619af</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <to display_value="Get configuration set">6777712adb6a03001388f9c41d9619ac</to>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <to display_value="End">cc860d28db72c34094e4f3561d96199c</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">a777712adb6a03001388f9c41d961960</condition>
-        <from display_value="Begin">a377712adb6a03001388f9c41d961960</from>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>e377712adb6a03001388f9c41d9619af</sys_id>
+        <condition display_value="Always">f6284d28db72c34094e4f3561d961967</condition>
+        <from display_value="Create error event">e6f64d68db72c34094e4f3561d961938</from>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:38:49</sys_created_on>
+        <sys_id>57280d28db72c34094e4f3561d9619d4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <to display_value="Get Definition Number + Execution ID">6b77712adb6a03001388f9c41d96195c</to>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:38:49</sys_updated_on>
+        <to display_value="Close task">44860d28db72c34094e4f3561d961983</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">2377712adb6a03001388f9c41d96195d</condition>
-        <from display_value="Get Definition Number + Execution ID">6b77712adb6a03001388f9c41d96195c</from>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>e777712adb6a03001388f9c41d9619af</sys_id>
+        <condition display_value="Yes">80860d28db72c34094e4f3561d96198c</condition>
+        <from display_value="Definition not empty?">4c860d28db72c34094e4f3561d96198a</from>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>58860d28db72c34094e4f3561d9619b1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <to display_value="Definition not empty?">e777712adb6a03001388f9c41d96195d</to>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <to display_value="Is Active?">4886c528db72c34094e4f3561d96191b</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="No">ab77712adb6a03001388f9c41d96195f</condition>
-        <from display_value="Process configuration set">6f77712adb6a03001388f9c41d96195e</from>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>eb77712adb6a03001388f9c41d9619ae</sys_id>
+        <condition display_value="Always">90860d28db72c34094e4f3561d9619ad</condition>
+        <from display_value="Get configuration set">d4860d28db72c34094e4f3561d9619ac</from>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>58860d28db72c34094e4f3561d9619b2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <to display_value="End">e377712adb6a03001388f9c41d961958</to>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <to display_value="Process configuration set">d0860d28db72c34094e4f3561d9619a5</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">a777712adb6a03001388f9c41d961959</condition>
-        <from display_value="Prepare inputs for configuration item">ef77712adb6a03001388f9c41d961958</from>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>eb77712adb6a03001388f9c41d9619af</sys_id>
+        <condition display_value="Always">94860d28db72c34094e4f3561d9619a3</condition>
+        <from display_value="Prepare inputs for configuration item">50860d28db72c34094e4f3561d9619a2</from>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>5c860d28db72c34094e4f3561d9619af</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <to display_value="Execute item">6f77712adb6a03001388f9c41d961959</to>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <to display_value="Execute item">d4860d28db72c34094e4f3561d9619a7</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">af77712adb6a03001388f9c41d9619ab</condition>
-        <from display_value="Log invalid number">e777712adb6a03001388f9c41d9619ab</from>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>ef77712adb6a03001388f9c41d9619ae</sys_id>
+        <condition display_value="Always">44860d28db72c34094e4f3561d96199c</condition>
+        <from display_value="Begin">44860d28db72c34094e4f3561d96199b</from>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>5c860d28db72c34094e4f3561d9619b0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <to display_value="End">e377712adb6a03001388f9c41d961958</to>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <to display_value="Get Definition Number + Execution ID">dc860d28db72c34094e4f3561d9619a3</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">2f77712adb6a03001388f9c41d9619ac</condition>
-        <from display_value="Get configuration set">6777712adb6a03001388f9c41d9619ac</from>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>ef77712adb6a03001388f9c41d9619af</sys_id>
+        <condition display_value="Always">c968416cdb72c34094e4f3561d9619a4</condition>
+        <from display_value="Create error event">8d68c528db72c34094e4f3561d961903</from>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:41:00</sys_created_on>
+        <sys_id>93a8816cdb72c34094e4f3561d96190f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <to display_value="Process configuration set">6f77712adb6a03001388f9c41d96195e</to>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:41:00</sys_updated_on>
+        <to display_value="Close task">c0860d28db72c34094e4f3561d96199e</to>
     </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">88860d28db72c34094e4f3561d961984</condition>
+        <from display_value="Close task">44860d28db72c34094e4f3561d961983</from>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>98860d28db72c34094e4f3561d9619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <to display_value="End">cc860d28db72c34094e4f3561d96199c</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">04860d28db72c34094e4f3561d961982</condition>
+        <from display_value="Is Active?">4886c528db72c34094e4f3561d96191b</from>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>d0860d28db72c34094e4f3561d9619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <to display_value="Get configuration set">d4860d28db72c34094e4f3561d9619ac</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Finished">9c860d28db72c34094e4f3561d9619ab</condition>
+        <from display_value="Execute item">d4860d28db72c34094e4f3561d9619a7</from>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>d0860d28db72c34094e4f3561d9619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <to display_value="Process configuration set">d0860d28db72c34094e4f3561d9619a5</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">98860d28db72c34094e4f3561d9619a4</condition>
+        <from display_value="Get Definition Number + Execution ID">dc860d28db72c34094e4f3561d9619a3</from>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>d4860d28db72c34094e4f3561d9619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <to display_value="Definition not empty?">4c860d28db72c34094e4f3561d96198a</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">48860d28db72c34094e4f3561d961982</condition>
+        <from display_value="Is Active?">4886c528db72c34094e4f3561d96191b</from>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>d4860d28db72c34094e4f3561d9619b0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:38:49</sys_updated_on>
+        <to display_value="Create error event">e6f64d68db72c34094e4f3561d961938</to>
+    </wf_transition>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_workflow_instance</document>
+        <document_key>c0860d28db72c34094e4f3561d96199f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>88860d28db72c34094e4f3561d96199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <value>${current.sys_class_name}</value>
+        <variable display_value="">25eec6a64f63b604fba400818110c7ac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_workflow_instance</document>
+        <document_key>c0860d28db72c34094e4f3561d96199f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>cc860d28db72c34094e4f3561d96199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <value>${current.sys_id}</value>
+        <variable display_value="">761f8ea64f63b604fba400818110c7e2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_workflow_instance</document>
+        <document_key>c0860d28db72c34094e4f3561d96199f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>48860d28db72c34094e4f3561d9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">a93f82e64f63b604fba400818110c711</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_workflow_instance</document>
+        <document_key>c0860d28db72c34094e4f3561d96199f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>04860d28db72c34094e4f3561d9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <value>Automation Execution failed: Configuration (${workflow.scratchpad.definition_number}) does not exist.</value>
+        <variable display_value="">2a6f4ae64f63b604fba400818110c7c3</variable>
+    </sys_variable_value>
+    <wf_workflow_instance action="INSERT_OR_UPDATE">
+        <activity display_value="Close task">c0860d28db72c34094e4f3561d96199e</activity>
+        <return_map/>
+        <stage/>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:30</sys_created_on>
+        <sys_id>c0860d28db72c34094e4f3561d96199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:30</sys_updated_on>
+        <workflow display_value="Close task">22c8bde24f6f7604fba400818110c769</workflow>
+        <workflow_version display_value="Dynamic workflow - Master">f776c528db72c34094e4f3561d961918</workflow_version>
+    </wf_workflow_instance>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_workflow_instance</document>
+        <document_key>cc860d28db72c34094e4f3561d961984</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>c4860d28db72c34094e4f3561d961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
+        <value>${current.sys_class_name}</value>
+        <variable display_value="">25eec6a64f63b604fba400818110c7ac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_workflow_instance</document>
+        <document_key>cc860d28db72c34094e4f3561d961984</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>0c860d28db72c34094e4f3561d961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
+        <value>${current.sys_id}</value>
+        <variable display_value="">761f8ea64f63b604fba400818110c7e2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_workflow_instance</document>
+        <document_key>cc860d28db72c34094e4f3561d961984</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>80860d28db72c34094e4f3561d961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">a93f82e64f63b604fba400818110c711</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_workflow_instance</document>
+        <document_key>cc860d28db72c34094e4f3561d961984</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>40860d28db72c34094e4f3561d961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
+        <value>Automation Execution failed: Configuration (${workflow.scratchpad.definition_number}) is not Active.</value>
+        <variable display_value="">2a6f4ae64f63b604fba400818110c7c3</variable>
+    </sys_variable_value>
+    <wf_workflow_instance action="INSERT_OR_UPDATE">
+        <activity display_value="Close task">44860d28db72c34094e4f3561d961983</activity>
+        <return_map/>
+        <stage/>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>cc860d28db72c34094e4f3561d961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
+        <workflow display_value="Close task">22c8bde24f6f7604fba400818110c769</workflow>
+        <workflow_version display_value="Dynamic workflow - Master">f776c528db72c34094e4f3561d961918</workflow_version>
+    </wf_workflow_instance>
     <var_dictionary action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1413,7 +2029,7 @@ function ifScript() {&#13;
         <column_label>workflow_inputs</column_label>
         <comments/>
         <create_roles/>
-        <default_value>DYNWFCONF0001001</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -1455,15 +2071,15 @@ function ifScript() {&#13;
         <sys_created_on>2017-11-23 11:55:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0ff639e6db6a03001388f9c41d961973</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>workflow_inputs</sys_name>
         <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
         <sys_update_name>var_dictionary_0ff639e6db6a03001388f9c41d961973</sys_update_name>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:55:28</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 11:45:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1506,15 +2122,15 @@ function ifScript() {&#13;
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-23 11:57:41</sys_created_on>
-        <sys_id>2377712adb6a03001388f9c41d961957</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 13:31:29</sys_created_on>
+        <sys_id>7f76c528db72c34094e4f3561d961918</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-23 11:57:41</sys_updated_on>
-        <workflow_version display_value="Dynamic workflow - Master">af77712adb6a03001388f9c41d961956</workflow_version>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 13:31:29</sys_updated_on>
+        <workflow_version display_value="Dynamic workflow - Master">f776c528db72c34094e4f3561d961918</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=76f675e6db6a03001388f9c41d9619fc^sys_id!=af77712adb6a03001388f9c41d961956">
+    <wf_workflow_version action="update_multiple" query="workflow=76f675e6db6a03001388f9c41d9619fc^sys_id!=f776c528db72c34094e4f3561d961918">
         <published>false</published>
     </wf_workflow_version>
 </record_update>

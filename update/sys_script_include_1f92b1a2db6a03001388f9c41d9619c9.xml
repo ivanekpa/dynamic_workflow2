@@ -15,6 +15,8 @@ DynamicWorkflowUtil.prototype = {
 		
     },
 	
+	ERROR_EVENT_CI_NAME: gs.getProperty("x_tieoy_dyn_wf.dyn_wf.ci.name", ""),
+	
 	// Get configuration based on the number
     getConfiguration: function(number) {
     	var conf = new GlideRecord('x_tieoy_dyn_wf_conf');
@@ -31,9 +33,11 @@ DynamicWorkflowUtil.prototype = {
 			
 			//Initialize scratchpad MAPPING Object
 			this._wf.scratchpad['MAPPING'] = {};
-		
+			
+			//Return Configuration sys_id, active, and created configuration execution sys_id
 		    var ret = {
 		    	sys_id : conf.sys_id+"",
+		    	active : conf.active+"",
 		    	conf_execution_id : confExecution.sys_id+""
 		    };
 
@@ -175,6 +179,22 @@ DynamicWorkflowUtil.prototype = {
 		}
 	},
 	
+	createEVMEvent: function(description, severity){
+		var addEvent = new GlideRecord('em_event');
+		addEvent.initialize();
+		addEvent.short_description = 'Dynamic workflow failure';
+		addEvent.description = description;
+		//addEvent.source = 'ServiceNOW';
+		//addEvent.metric_name = 'Failure';
+		//addEvent.type = 'Workflow failure';
+		//addEvent.resource = 'Worfklow';
+		addEvent.severity = severity;
+		addEvent.node = this.ERROR_EVENT_CI_NAME;
+		
+		addEvent.insert(); 
+
+	},
+	
 	_createConfigurationExecution: function(conf_id) {
 
 		var confExecution = new GlideRecord('x_tieoy_dyn_wf_exec');
@@ -210,7 +230,7 @@ DynamicWorkflowUtil.prototype = {
         <sys_created_on>2017-11-23 11:36:49</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1f92b1a2db6a03001388f9c41d9619c9</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>DynamicWorkflowUtil</sys_name>
         <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
         <sys_policy>read</sys_policy>
@@ -218,6 +238,6 @@ DynamicWorkflowUtil.prototype = {
         <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
         <sys_update_name>sys_script_include_1f92b1a2db6a03001388f9c41d9619c9</sys_update_name>
         <sys_updated_by>admin.kelnajir</sys_updated_by>
-        <sys_updated_on>2017-11-28 09:51:01</sys_updated_on>
+        <sys_updated_on>2017-11-29 10:57:46</sys_updated_on>
     </sys_script_include>
 </record_update>

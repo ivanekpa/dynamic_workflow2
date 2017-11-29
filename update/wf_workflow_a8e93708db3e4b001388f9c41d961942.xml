@@ -2,7 +2,7 @@
 <record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"subflows":["76f675e6db6a03001388f9c41d9619fc","6e20d1c14f888bc4fba400818110c748"],"stages":{},"activities":{},"ends":["64e93708db3e4b001388f9c41d961945"]}</activity_stages>
+        <activity_stages>{"subflows":["6e20d1c14f888bc4fba400818110c748","76f675e6db6a03001388f9c41d9619fc"],"stages":{},"activities":{},"ends":["a6ab1824dbf6cb001388f9c41d961998"]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -10,10 +10,10 @@
         <condition/>
         <condition_type>run_match</condition_type>
         <description>This workflow runs the "Dynamic workflow - Master" as a subflow with a configuration number that is located in the "Additional information" of the testing event</description>
-        <expected_sequences>28e93708db3e4b001388f9c41d961943,2bab37c8db3e4b001388f9c41d9619fc,036a3f48db3e4b001388f9c41d961912,64e93708db3e4b001388f9c41d961945</expected_sequences>
+        <expected_sequences>16ab1824dbf6cb001388f9c41d961993,6eab1824dbf6cb001388f9c41d961994,c7bb9824dbf6cb001388f9c41d961943,daab942cdbb6cb001388f9c41d9619f8,a6ab1824dbf6cb001388f9c41d961998</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>28e93708db3e4b001388f9c41d961943,2bab37c8db3e4b001388f9c41d9619fc,036a3f48db3e4b001388f9c41d961912,64e93708db3e4b001388f9c41d961945</full_sequences>
+        <full_sequences>16ab1824dbf6cb001388f9c41d961993,6eab1824dbf6cb001388f9c41d961994,c7bb9824dbf6cb001388f9c41d961943,daab942cdbb6cb001388f9c41d9619f8,a6ab1824dbf6cb001388f9c41d961998</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>Run dynamic workflow Master for testing event</name>
@@ -28,16 +28,16 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">28e93708db3e4b001388f9c41d961943</start>
+        <start display_value="Begin">16ab1824dbf6cb001388f9c41d961993</start>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:18:16</sys_created_on>
-        <sys_id>0989b348db3e4b001388f9c41d9619ab</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:28:56</sys_updated_on>
+        <sys_created_on>2017-11-29 10:24:19</sys_created_on>
+        <sys_id>0aab942cdbb6cb001388f9c41d9619f5</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-29 10:35:07</sys_updated_on>
         <table>global</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Run dynamic workflow Master for testing event">a8e93708db3e4b001388f9c41d961942</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
@@ -82,21 +82,21 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:18:16</sys_created_on>
-        <sys_id>28e93708db3e4b001388f9c41d961943</sys_id>
+        <sys_created_on>2017-11-29 10:24:20</sys_created_on>
+        <sys_id>16ab1824dbf6cb001388f9c41d961993</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:18:16</sys_updated_on>
+        <sys_updated_on>2017-11-29 10:24:20</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Run dynamic workflow Master for testing event">0989b348db3e4b001388f9c41d9619ab</workflow_version>
+        <workflow_version display_value="Run dynamic workflow Master for testing event">0aab942cdbb6cb001388f9c41d9619f5</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=28e93708db3e4b001388f9c41d961943"/>
+    <sys_variable_value action="delete_multiple" query="document_key=16ab1824dbf6cb001388f9c41d961993"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">28e93708db3e4b001388f9c41d961943</activity>
+        <activity display_value="Begin">16ab1824dbf6cb001388f9c41d961993</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -110,11 +110,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:18:16</sys_created_on>
-        <sys_id>28e93708db3e4b001388f9c41d961944</sys_id>
+        <sys_created_on>2017-11-29 10:24:20</sys_created_on>
+        <sys_id>26ab1824dbf6cb001388f9c41d961994</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:18:16</sys_updated_on>
+        <sys_updated_on>2017-11-29 10:24:20</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Workflow">f1afb4010a0a0b2c00d8f55e2372c728</activity_definition>
@@ -132,49 +132,49 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:20:37</sys_created_on>
-        <sys_id>036a3f48db3e4b001388f9c41d961912</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2017-11-29 10:24:19</sys_created_on>
+        <sys_id>daab942cdbb6cb001388f9c41d9619f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:20:48</sys_updated_on>
+        <sys_updated_on>2017-11-29 10:24:19</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Run dynamic workflow Master for testing event">0989b348db3e4b001388f9c41d9619ab</workflow_version>
+        <workflow_version display_value="Run dynamic workflow Master for testing event">0aab942cdbb6cb001388f9c41d9619f5</workflow_version>
         <x>390</x>
         <y>44</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=036a3f48db3e4b001388f9c41d961912"/>
+    <sys_variable_value action="delete_multiple" query="document_key=daab942cdbb6cb001388f9c41d9619f8"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>036a3f48db3e4b001388f9c41d961912</document_key>
+        <document_key>daab942cdbb6cb001388f9c41d9619f8</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:20:37</sys_created_on>
-        <sys_id>0f6a3f48db3e4b001388f9c41d961912</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2017-11-29 10:24:19</sys_created_on>
+        <sys_id>1aab942cdbb6cb001388f9c41d9619f9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:20:37</sys_updated_on>
-        <value>f46a3388db3e4b001388f9c41d9619a9</value>
+        <sys_updated_on>2017-11-29 10:24:19</sys_updated_on>
+        <value>56ab942cdbb6cb001388f9c41d9619fb</value>
         <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>036a3f48db3e4b001388f9c41d961912</document_key>
+        <document_key>daab942cdbb6cb001388f9c41d9619f8</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:20:37</sys_created_on>
-        <sys_id>0f6a3f48db3e4b001388f9c41d961912</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2017-11-29 10:24:19</sys_created_on>
+        <sys_id>1aab942cdbb6cb001388f9c41d9619f9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:20:37</sys_updated_on>
-        <value>f46a3388db3e4b001388f9c41d9619a9</value>
+        <sys_updated_on>2017-11-29 10:24:19</sys_updated_on>
+        <value>56ab942cdbb6cb001388f9c41d9619fb</value>
         <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Dynamic workflow - Master">036a3f48db3e4b001388f9c41d961912</activity>
+        <activity display_value="Dynamic workflow - Master">daab942cdbb6cb001388f9c41d9619f8</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -188,11 +188,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:20:37</sys_created_on>
-        <sys_id>076a3f48db3e4b001388f9c41d961913</sys_id>
+        <sys_created_on>2017-11-29 10:24:19</sys_created_on>
+        <sys_id>9eab942cdbb6cb001388f9c41d9619fa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:20:37</sys_updated_on>
+        <sys_updated_on>2017-11-29 10:24:19</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -210,19 +210,19 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:18:16</sys_created_on>
-        <sys_id>64e93708db3e4b001388f9c41d961945</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2017-11-29 10:24:20</sys_created_on>
+        <sys_id>a6ab1824dbf6cb001388f9c41d961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:20:49</sys_updated_on>
+        <sys_updated_on>2017-11-29 10:24:20</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Run dynamic workflow Master for testing event">0989b348db3e4b001388f9c41d9619ab</workflow_version>
+        <workflow_version display_value="Run dynamic workflow Master for testing event">0aab942cdbb6cb001388f9c41d9619f5</workflow_version>
         <x>613</x>
         <y>58</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=64e93708db3e4b001388f9c41d961945"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a6ab1824dbf6cb001388f9c41d961998"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Workflow">f1afb4010a0a0b2c00d8f55e2372c728</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -239,49 +239,49 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:26:06</sys_created_on>
-        <sys_id>2bab37c8db3e4b001388f9c41d9619fc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2017-11-29 10:24:20</sys_created_on>
+        <sys_id>6eab1824dbf6cb001388f9c41d961994</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:27:00</sys_updated_on>
+        <sys_updated_on>2017-11-29 10:24:20</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Run dynamic workflow Master for testing event">0989b348db3e4b001388f9c41d9619ab</workflow_version>
+        <workflow_version display_value="Run dynamic workflow Master for testing event">0aab942cdbb6cb001388f9c41d9619f5</workflow_version>
         <x>182</x>
         <y>33</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=2bab37c8db3e4b001388f9c41d9619fc"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6eab1824dbf6cb001388f9c41d961994"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>2bab37c8db3e4b001388f9c41d9619fc</document_key>
+        <document_key>6eab1824dbf6cb001388f9c41d961994</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:26:07</sys_created_on>
-        <sys_id>a7ab37c8db3e4b001388f9c41d9619fd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2017-11-29 10:24:20</sys_created_on>
+        <sys_id>62ab1824dbf6cb001388f9c41d961995</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:26:07</sys_updated_on>
-        <value>042b7788db3e4b001388f9c41d9619bf</value>
+        <sys_updated_on>2017-11-29 10:24:20</sys_updated_on>
+        <value>6eab1824dbf6cb001388f9c41d961995</value>
         <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>2bab37c8db3e4b001388f9c41d9619fc</document_key>
+        <document_key>6eab1824dbf6cb001388f9c41d961994</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:26:07</sys_created_on>
-        <sys_id>a7ab37c8db3e4b001388f9c41d9619fd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2017-11-29 10:24:20</sys_created_on>
+        <sys_id>62ab1824dbf6cb001388f9c41d961995</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:26:07</sys_updated_on>
-        <value>042b7788db3e4b001388f9c41d9619bf</value>
+        <sys_updated_on>2017-11-29 10:24:20</sys_updated_on>
+        <value>6eab1824dbf6cb001388f9c41d961995</value>
         <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Generic input gathering procedure">2bab37c8db3e4b001388f9c41d9619fc</activity>
+        <activity display_value="Generic input gathering procedure">6eab1824dbf6cb001388f9c41d961994</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -295,140 +295,231 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:26:07</sys_created_on>
-        <sys_id>a3ab37c8db3e4b001388f9c41d9619fe</sys_id>
+        <sys_created_on>2017-11-29 10:24:20</sys_created_on>
+        <sys_id>2aab1824dbf6cb001388f9c41d961995</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:26:07</sys_updated_on>
+        <sys_updated_on>2017-11-29 10:24:20</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Parse additional info JSON object</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin.ivanepav</sys_created_by>
+        <sys_created_on>2017-11-29 10:27:45</sys_created_on>
+        <sys_id>c7bb9824dbf6cb001388f9c41d961943</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin.ivanepav</sys_updated_by>
+        <sys_updated_on>2017-11-29 10:31:03</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Run dynamic workflow Master for testing event">0aab942cdbb6cb001388f9c41d9619f5</workflow_version>
+        <x>256</x>
+        <y>198</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c7bb9824dbf6cb001388f9c41d961943"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c7bb9824dbf6cb001388f9c41d961943</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.ivanepav</sys_created_by>
+        <sys_created_on>2017-11-29 10:27:45</sys_created_on>
+        <sys_id>687c18e4dbf6cb001388f9c41d961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.ivanepav</sys_updated_by>
+        <sys_updated_on>2017-11-29 10:27:45</sys_updated_on>
+        <value>var add_info = JSON.parse(workflow.scratchpad['output.inputs'].parameters[0].values.additional_info);&#13;
+workflow.scratchpad.configuration_number = add_info.configuration_number;</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c7bb9824dbf6cb001388f9c41d961943</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.ivanepav</sys_created_by>
+        <sys_created_on>2017-11-29 10:27:45</sys_created_on>
+        <sys_id>687c18e4dbf6cb001388f9c41d961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.ivanepav</sys_updated_by>
+        <sys_updated_on>2017-11-29 10:27:45</sys_updated_on>
+        <value>var add_info = JSON.parse(workflow.scratchpad['output.inputs'].parameters[0].values.additional_info);&#13;
+workflow.scratchpad.configuration_number = add_info.configuration_number;</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Parse additional info JSON object">c7bb9824dbf6cb001388f9c41d961943</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin.ivanepav</sys_created_by>
+        <sys_created_on>2017-11-29 10:27:45</sys_created_on>
+        <sys_id>607c18e4dbf6cb001388f9c41d961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.ivanepav</sys_updated_by>
+        <sys_updated_on>2017-11-29 10:27:45</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">076a3f48db3e4b001388f9c41d961913</condition>
-        <from display_value="Dynamic workflow - Master">036a3f48db3e4b001388f9c41d961912</from>
+        <condition display_value="Always">2aab1824dbf6cb001388f9c41d961995</condition>
+        <from display_value="Generic input gathering procedure">6eab1824dbf6cb001388f9c41d961994</from>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:20:47</sys_created_on>
-        <sys_id>597a3b48db3e4b001388f9c41d961946</sys_id>
+        <sys_created_on>2017-11-29 10:31:07</sys_created_on>
+        <sys_id>3d3dd068dbf6cb001388f9c41d961900</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:20:47</sys_updated_on>
-        <to display_value="End">64e93708db3e4b001388f9c41d961945</to>
+        <sys_updated_on>2017-11-29 10:31:07</sys_updated_on>
+        <to display_value="Parse additional info JSON object">c7bb9824dbf6cb001388f9c41d961943</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">28e93708db3e4b001388f9c41d961944</condition>
-        <from display_value="Begin">28e93708db3e4b001388f9c41d961943</from>
+        <condition display_value="Always">26ab1824dbf6cb001388f9c41d961994</condition>
+        <from display_value="Begin">16ab1824dbf6cb001388f9c41d961993</from>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:26:19</sys_created_on>
-        <sys_id>6ebb7f88db3e4b001388f9c41d961932</sys_id>
+        <sys_created_on>2017-11-29 10:24:20</sys_created_on>
+        <sys_id>6aab1824dbf6cb001388f9c41d96199a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:26:19</sys_updated_on>
-        <to display_value="Generic input gathering procedure">2bab37c8db3e4b001388f9c41d9619fc</to>
+        <sys_updated_on>2017-11-29 10:24:20</sys_updated_on>
+        <to display_value="Generic input gathering procedure">6eab1824dbf6cb001388f9c41d961994</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">a3ab37c8db3e4b001388f9c41d9619fe</condition>
-        <from display_value="Generic input gathering procedure">2bab37c8db3e4b001388f9c41d9619fc</from>
+        <condition display_value="Always">607c18e4dbf6cb001388f9c41d961949</condition>
+        <from display_value="Parse additional info JSON object">c7bb9824dbf6cb001388f9c41d961943</from>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:26:21</sys_created_on>
-        <sys_id>7ebbfb88db3e4b001388f9c41d961971</sys_id>
+        <sys_created_on>2017-11-29 10:31:08</sys_created_on>
+        <sys_id>8e3d5068dbf6cb001388f9c41d9619e1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:26:21</sys_updated_on>
-        <to display_value="Dynamic workflow - Master">036a3f48db3e4b001388f9c41d961912</to>
+        <sys_updated_on>2017-11-29 10:31:08</sys_updated_on>
+        <to display_value="Dynamic workflow - Master">daab942cdbb6cb001388f9c41d9619f8</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">9eab942cdbb6cb001388f9c41d9619fa</condition>
+        <from display_value="Dynamic workflow - Master">daab942cdbb6cb001388f9c41d9619f8</from>
+        <sys_created_by>admin.ivanepav</sys_created_by>
+        <sys_created_on>2017-11-29 10:24:20</sys_created_on>
+        <sys_id>e6ab1824dbf6cb001388f9c41d96199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.ivanepav</sys_updated_by>
+        <sys_updated_on>2017-11-29 10:24:20</sys_updated_on>
+        <to display_value="End">a6ab1824dbf6cb001388f9c41d961998</to>
     </wf_transition>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_workflow_instance</document>
-        <document_key>042b7788db3e4b001388f9c41d9619bf</document_key>
+        <document_key>56ab942cdbb6cb001388f9c41d9619fb</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:26:06</sys_created_on>
-        <sys_id>d7ab37c8db3e4b001388f9c41d9619fa</sys_id>
+        <sys_created_on>2017-11-29 10:24:19</sys_created_on>
+        <sys_id>1aab942cdbb6cb001388f9c41d9619fc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin.ivanepav</sys_updated_by>
+        <sys_updated_on>2017-11-29 10:31:22</sys_updated_on>
+        <value>${workflow.scratchpad.configuration_number}</value>
+        <variable display_value="">0ff639e6db6a03001388f9c41d961973</variable>
+    </sys_variable_value>
+    <wf_workflow_instance action="INSERT_OR_UPDATE">
+        <activity display_value="Dynamic workflow - Master">daab942cdbb6cb001388f9c41d9619f8</activity>
+        <return_map/>
+        <stage/>
+        <sys_created_by>admin.ivanepav</sys_created_by>
+        <sys_created_on>2017-11-29 10:24:19</sys_created_on>
+        <sys_id>56ab942cdbb6cb001388f9c41d9619fb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:26:06</sys_updated_on>
+        <sys_updated_on>2017-11-29 10:24:19</sys_updated_on>
+        <workflow display_value="Dynamic workflow - Master">76f675e6db6a03001388f9c41d9619fc</workflow>
+        <workflow_version display_value="Run dynamic workflow Master for testing event">0aab942cdbb6cb001388f9c41d9619f5</workflow_version>
+    </wf_workflow_instance>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_workflow_instance</document>
+        <document_key>6eab1824dbf6cb001388f9c41d961995</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.ivanepav</sys_created_by>
+        <sys_created_on>2017-11-29 10:24:20</sys_created_on>
+        <sys_id>eeab1824dbf6cb001388f9c41d961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.ivanepav</sys_updated_by>
+        <sys_updated_on>2017-11-29 10:24:20</sys_updated_on>
         <value>${current.sys_class_name}</value>
         <variable display_value="">513055c14f888bc4fba400818110c7b2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_workflow_instance</document>
-        <document_key>042b7788db3e4b001388f9c41d9619bf</document_key>
+        <document_key>6eab1824dbf6cb001388f9c41d961995</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:26:06</sys_created_on>
-        <sys_id>57ab37c8db3e4b001388f9c41d9619fb</sys_id>
+        <sys_created_on>2017-11-29 10:24:20</sys_created_on>
+        <sys_id>66ab1824dbf6cb001388f9c41d961996</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:26:06</sys_updated_on>
+        <sys_updated_on>2017-11-29 10:24:20</sys_updated_on>
         <value>${current.sys_id}</value>
         <variable display_value="">0b4019c14f888bc4fba400818110c7d8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_workflow_instance</document>
-        <document_key>042b7788db3e4b001388f9c41d9619bf</document_key>
+        <document_key>6eab1824dbf6cb001388f9c41d961995</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:26:06</sys_created_on>
-        <sys_id>93ab37c8db3e4b001388f9c41d9619fb</sys_id>
+        <sys_created_on>2017-11-29 10:24:20</sys_created_on>
+        <sys_id>aaab1824dbf6cb001388f9c41d961996</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:26:06</sys_updated_on>
+        <sys_updated_on>2017-11-29 10:24:20</sys_updated_on>
         <value>{ "fields" : ["additional_info"]};</value>
         <variable display_value="">3c7015054f888bc4fba400818110c742</variable>
     </sys_variable_value>
     <wf_workflow_instance action="INSERT_OR_UPDATE">
-        <activity display_value="Generic input gathering procedure">2bab37c8db3e4b001388f9c41d9619fc</activity>
+        <activity display_value="Generic input gathering procedure">6eab1824dbf6cb001388f9c41d961994</activity>
         <return_map>${workflow.scratchpad.output.inputs}</return_map>
         <stage/>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:26:06</sys_created_on>
-        <sys_id>042b7788db3e4b001388f9c41d9619bf</sys_id>
+        <sys_created_on>2017-11-29 10:24:20</sys_created_on>
+        <sys_id>6eab1824dbf6cb001388f9c41d961995</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:26:06</sys_updated_on>
+        <sys_updated_on>2017-11-29 10:24:20</sys_updated_on>
         <workflow display_value="Generic input gathering procedure">6e20d1c14f888bc4fba400818110c748</workflow>
-        <workflow_version display_value="Run dynamic workflow Master for testing event">0989b348db3e4b001388f9c41d9619ab</workflow_version>
-    </wf_workflow_instance>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_workflow_instance</document>
-        <document_key>f46a3388db3e4b001388f9c41d9619a9</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:20:37</sys_created_on>
-        <sys_id>476a3f48db3e4b001388f9c41d961910</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:27:45</sys_updated_on>
-        <value>${workflow.scratchpad['output.inputs'].parameters[0].values.additional_info}</value>
-        <variable display_value="">0ff639e6db6a03001388f9c41d961973</variable>
-    </sys_variable_value>
-    <wf_workflow_instance action="INSERT_OR_UPDATE">
-        <activity display_value="Dynamic workflow - Master">036a3f48db3e4b001388f9c41d961912</activity>
-        <return_map/>
-        <stage/>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:20:37</sys_created_on>
-        <sys_id>f46a3388db3e4b001388f9c41d9619a9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:20:37</sys_updated_on>
-        <workflow display_value="Dynamic workflow - Master">76f675e6db6a03001388f9c41d9619fc</workflow>
-        <workflow_version display_value="Run dynamic workflow Master for testing event">0989b348db3e4b001388f9c41d9619ab</workflow_version>
+        <workflow_version display_value="Run dynamic workflow Master for testing event">0aab942cdbb6cb001388f9c41d9619f5</workflow_version>
     </wf_workflow_instance>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-28 13:18:16</sys_created_on>
-        <sys_id>ece93708db3e4b001388f9c41d961941</sys_id>
+        <sys_created_on>2017-11-29 10:24:19</sys_created_on>
+        <sys_id>ceab942cdbb6cb001388f9c41d9619f5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-28 13:18:16</sys_updated_on>
-        <workflow_version display_value="Run dynamic workflow Master for testing event">0989b348db3e4b001388f9c41d9619ab</workflow_version>
+        <sys_updated_on>2017-11-29 10:24:19</sys_updated_on>
+        <workflow_version display_value="Run dynamic workflow Master for testing event">0aab942cdbb6cb001388f9c41d9619f5</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=a8e93708db3e4b001388f9c41d961942^sys_id!=0989b348db3e4b001388f9c41d9619ab">
+    <wf_workflow_version action="update_multiple" query="workflow=a8e93708db3e4b001388f9c41d961942^sys_id!=0aab942cdbb6cb001388f9c41d9619f5">
         <published>false</published>
     </wf_workflow_version>
 </record_update>

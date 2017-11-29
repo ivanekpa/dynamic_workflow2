@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="b6dda44b37265a0015cfd3e853990e64" table="em_alert" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="em_alert" element="NULL" name="em_alert" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ee24efe2db2acb404b6af1c41d96190b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin.singiraj</sys_created_by>
+            <sys_created_on>2017-11-23 19:52:30</sys_created_on>
+            <sys_id>ae24efe2db2acb404b6af1c41d96190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.singiraj</sys_updated_by>
+            <sys_updated_on>2017-11-23 19:52:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>acknowledged</element>
+            <list_id display_value="em_alert" element="NULL" name="em_alert" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ee24efe2db2acb404b6af1c41d96190b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin.singiraj</sys_created_by>
+            <sys_created_on>2017-11-23 19:52:30</sys_created_on>
+            <sys_id>2a24efe2db2acb404b6af1c41d96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.singiraj</sys_updated_by>
+            <sys_updated_on>2017-11-23 19:52:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>additional_info</element>
+            <list_id display_value="em_alert" element="NULL" name="em_alert" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ee24efe2db2acb404b6af1c41d96190b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin.singiraj</sys_created_by>
+            <sys_created_on>2017-11-23 19:52:30</sys_created_on>
+            <sys_id>aa24efe2db2acb404b6af1c41d96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.singiraj</sys_updated_by>
+            <sys_updated_on>2017-11-23 19:52:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>category</element>
+            <list_id display_value="em_alert" element="NULL" name="em_alert" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ee24efe2db2acb404b6af1c41d96190b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin.singiraj</sys_created_by>
+            <sys_created_on>2017-11-23 19:52:30</sys_created_on>
+            <sys_id>2e24efe2db2acb404b6af1c41d96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.singiraj</sys_updated_by>
+            <sys_updated_on>2017-11-23 19:52:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>classification</element>
+            <list_id display_value="em_alert" element="NULL" name="em_alert" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ee24efe2db2acb404b6af1c41d96190b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin.singiraj</sys_created_by>
+            <sys_created_on>2017-11-23 19:52:30</sys_created_on>
+            <sys_id>ae24efe2db2acb404b6af1c41d96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.singiraj</sys_updated_by>
+            <sys_updated_on>2017-11-23 19:52:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cmdb_ci</element>
+            <list_id display_value="em_alert" element="NULL" name="em_alert" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ee24efe2db2acb404b6af1c41d96190b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin.singiraj</sys_created_by>
+            <sys_created_on>2017-11-23 19:52:30</sys_created_on>
+            <sys_id>2224efe2db2acb404b6af1c41d96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.singiraj</sys_updated_by>
+            <sys_updated_on>2017-11-23 19:52:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>correlation_group</element>
+            <list_id display_value="em_alert" element="NULL" name="em_alert" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ee24efe2db2acb404b6af1c41d96190b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin.singiraj</sys_created_by>
+            <sys_created_on>2017-11-23 19:52:30</sys_created_on>
+            <sys_id>a224efe2db2acb404b6af1c41d96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.singiraj</sys_updated_by>
+            <sys_updated_on>2017-11-23 19:52:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>correlation_rule_group</element>
+            <list_id display_value="em_alert" element="NULL" name="em_alert" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ee24efe2db2acb404b6af1c41d96190b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin.singiraj</sys_created_by>
+            <sys_created_on>2017-11-23 19:52:30</sys_created_on>
+            <sys_id>2624efe2db2acb404b6af1c41d96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.singiraj</sys_updated_by>
+            <sys_updated_on>2017-11-23 19:52:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="em_alert" element="NULL" name="em_alert" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ee24efe2db2acb404b6af1c41d96190b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin.singiraj</sys_created_by>
+            <sys_created_on>2017-11-23 19:52:30</sys_created_on>
+            <sys_id>a624efe2db2acb404b6af1c41d96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.singiraj</sys_updated_by>
+            <sys_updated_on>2017-11-23 19:52:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>event_class</element>
+            <list_id display_value="em_alert" element="NULL" name="em_alert" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ee24efe2db2acb404b6af1c41d96190b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin.singiraj</sys_created_by>
+            <sys_created_on>2017-11-23 19:52:30</sys_created_on>
+            <sys_id>2a24efe2db2acb404b6af1c41d96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.singiraj</sys_updated_by>
+            <sys_updated_on>2017-11-23 19:52:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>em_alert</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>pavel.ivanek@tieto.com</sys_created_by>
+            <sys_created_on>2017-11-29 09:23:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>b6dda44b37265a0015cfd3e853990e64</sys_domain>
+            <sys_domain_path>!!!/!!!/!!)/</sys_domain_path>
+            <sys_id>5bad842cdb76cb001388f9c41d961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package/>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>pavel.ivanek@tieto.com</sys_updated_by>
+            <sys_updated_on>2017-11-29 09:23:14</sys_updated_on>
+            <sys_user display_value="Ivánek Pavel">e56953bbbc14f000945e317ff3ee795e</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

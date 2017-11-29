@@ -163,11 +163,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin.ivanepav</sys_created_by>
-            <sys_created_on>2017-11-28 15:30:35</sys_created_on>
+            <sys_created_on>2017-11-29 10:39:23</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
             <sys_domain_path>!!!/</sys_domain_path>
-            <sys_id>b228501cdbbe4b001388f9c41d961975</sys_id>
+            <sys_id>c71f18ecdbf6cb001388f9c41d9619c3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name/>
             <sys_package/>
@@ -176,7 +176,7 @@
             <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
             <sys_update_name/>
             <sys_updated_by>admin.ivanepav</sys_updated_by>
-            <sys_updated_on>2017-11-28 15:30:35</sys_updated_on>
+            <sys_updated_on>2017-11-29 10:39:23</sys_updated_on>
             <sys_user display_value="Ivanek Admin Pavel">438988524f64a200fba400818110c7f6</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

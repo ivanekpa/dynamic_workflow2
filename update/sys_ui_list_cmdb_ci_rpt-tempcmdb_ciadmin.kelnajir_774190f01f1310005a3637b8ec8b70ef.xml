@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="cmdb_ci" version="2" view="rpt-tempcmdb_ciadmin.kelnajir">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="cmdb_ci" element="NULL" name="cmdb_ci" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">67d09f80db310300ad06f5e51d9619ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-09 17:16:17</sys_created_on>
+            <sys_id>2bd09f80db310300ad06f5e51d9619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-09 17:16:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="cmdb_ci" element="NULL" name="cmdb_ci" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">67d09f80db310300ad06f5e51d9619ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>felix.bait</sys_created_by>
+            <sys_created_on>2010-11-25 11:14:38</sys_created_on>
+            <sys_id>82bdfd8e0ad337023aad503a56a1904e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>felix.bait</sys_updated_by>
+            <sys_updated_on>2010-11-25 11:14:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>manufacturer</element>
+            <list_id display_value="cmdb_ci" element="NULL" name="cmdb_ci" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">67d09f80db310300ad06f5e51d9619ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>felix.bait</sys_created_by>
+            <sys_created_on>2010-11-25 11:14:38</sys_created_on>
+            <sys_id>82bdfd8e0ad33702749c285aa47a9747</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>felix.bait</sys_updated_by>
+            <sys_updated_on>2010-11-25 11:14:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>manufacturer</element>
+            <list_id display_value="cmdb_ci" element="NULL" name="cmdb_ci" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">67d09f80db310300ad06f5e51d9619ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-09 17:16:17</sys_created_on>
+            <sys_id>abd09f80db310300ad06f5e51d9619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-09 17:16:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>location</element>
+            <list_id display_value="cmdb_ci" element="NULL" name="cmdb_ci" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">67d09f80db310300ad06f5e51d9619ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-09 17:16:17</sys_created_on>
+            <sys_id>2fd09f80db310300ad06f5e51d9619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-09 17:16:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>location</element>
+            <list_id display_value="cmdb_ci" element="NULL" name="cmdb_ci" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">67d09f80db310300ad06f5e51d9619ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>felix.bait</sys_created_by>
+            <sys_created_on>2010-11-25 11:14:38</sys_created_on>
+            <sys_id>82bdfd8f0ad3370233ed1f47b9c890ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>felix.bait</sys_updated_by>
+            <sys_updated_on>2010-11-25 11:14:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="cmdb_ci" element="NULL" name="cmdb_ci" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">67d09f80db310300ad06f5e51d9619ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-09 17:16:17</sys_created_on>
+            <sys_id>afd09f80db310300ad06f5e51d9619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-09 17:16:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="cmdb_ci" element="NULL" name="cmdb_ci" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">67d09f80db310300ad06f5e51d9619ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>felix.bait</sys_created_by>
+            <sys_created_on>2010-11-25 11:14:38</sys_created_on>
+            <sys_id>82bdfd900ad33702780091c5dd8408d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>felix.bait</sys_updated_by>
+            <sys_updated_on>2010-11-25 11:14:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_class_name</element>
+            <list_id display_value="cmdb_ci" element="NULL" name="cmdb_ci" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">67d09f80db310300ad06f5e51d9619ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>felix.bait</sys_created_by>
+            <sys_created_on>2010-11-25 11:14:38</sys_created_on>
+            <sys_id>82bdfd910ad3370208eb8c2e4a3f9be1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>felix.bait</sys_updated_by>
+            <sys_updated_on>2010-11-25 11:14:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_class_name</element>
+            <list_id display_value="cmdb_ci" element="NULL" name="cmdb_ci" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">67d09f80db310300ad06f5e51d9619ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-09 17:16:17</sys_created_on>
+            <sys_id>23d09f80db310300ad06f5e51d9619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-09 17:16:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="cmdb_ci" element="NULL" name="cmdb_ci" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">67d09f80db310300ad06f5e51d9619ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>felix.bait</sys_created_by>
+            <sys_created_on>2010-11-25 11:14:38</sys_created_on>
+            <sys_id>82bdfd920ad337024d7830eee4e0b00d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>felix.bait</sys_updated_by>
+            <sys_updated_on>2010-11-25 11:14:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>maintenance_schedule</element>
+            <list_id display_value="cmdb_ci" element="NULL" name="cmdb_ci" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">67d09f80db310300ad06f5e51d9619ea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>felix.bait</sys_created_by>
+            <sys_created_on>2010-11-25 11:14:38</sys_created_on>
+            <sys_id>82bdfd930ad33702606cb0e36c2be09b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>felix.bait</sys_updated_by>
+            <sys_updated_on>2010-11-25 11:14:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>cmdb_ci</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-11-29 09:35:47</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>678018a8db7a834094e4f3561d9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package/>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-11-29 09:35:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt-tempcmdb_ciadmin.kelnajir" name="rpt-tempcmdb_ciadmin.kelnajir">f76ec460db7a834094e4f3561d961933</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
