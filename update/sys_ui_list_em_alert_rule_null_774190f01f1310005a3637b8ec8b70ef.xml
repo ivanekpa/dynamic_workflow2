@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="em_alert_rule" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="em_alert_rule" element="NULL" name="em_alert_rule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea932b23eb2311004d7763fba206fec8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin.simekjir</sys_created_by>
+            <sys_created_on>2016-10-20 09:48:09</sys_created_on>
+            <sys_id>a3776ece4fae2e0020450b318110c7fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.simekjir</sys_updated_by>
+            <sys_updated_on>2016-10-20 09:48:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_description</element>
+            <list_id display_value="em_alert_rule" element="NULL" name="em_alert_rule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea932b23eb2311004d7763fba206fec8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin.simekjir</sys_created_by>
+            <sys_created_on>2016-10-20 09:48:09</sys_created_on>
+            <sys_id>27776ece4fae2e0020450b318110c7fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.simekjir</sys_updated_by>
+            <sys_updated_on>2016-10-20 09:48:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="em_alert_rule" element="NULL" name="em_alert_rule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea932b23eb2311004d7763fba206fec8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin.simekjir</sys_created_by>
+            <sys_created_on>2016-10-20 09:48:09</sys_created_on>
+            <sys_id>a7776ece4fae2e0020450b318110c7fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.simekjir</sys_updated_by>
+            <sys_updated_on>2016-10-20 09:48:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>order</element>
+            <list_id display_value="em_alert_rule" element="NULL" name="em_alert_rule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea932b23eb2311004d7763fba206fec8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin.simekjir</sys_created_by>
+            <sys_created_on>2016-10-20 09:48:09</sys_created_on>
+            <sys_id>2b776ece4fae2e0020450b318110c7fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.simekjir</sys_updated_by>
+            <sys_updated_on>2016-10-20 09:48:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>auto_open</element>
+            <list_id display_value="em_alert_rule" element="NULL" name="em_alert_rule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea932b23eb2311004d7763fba206fec8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin.simekjir</sys_created_by>
+            <sys_created_on>2016-10-20 09:48:09</sys_created_on>
+            <sys_id>ab776ece4fae2e0020450b318110c7fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.simekjir</sys_updated_by>
+            <sys_updated_on>2016-10-20 09:48:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>type</element>
+            <list_id display_value="em_alert_rule" element="NULL" name="em_alert_rule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea932b23eb2311004d7763fba206fec8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin.simekjir</sys_created_by>
+            <sys_created_on>2016-10-20 09:48:09</sys_created_on>
+            <sys_id>2f776ece4fae2e0020450b318110c7fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.simekjir</sys_updated_by>
+            <sys_updated_on>2016-10-20 09:48:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_autoclose</element>
+            <list_id display_value="em_alert_rule" element="NULL" name="em_alert_rule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea932b23eb2311004d7763fba206fec8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin.simekjir</sys_created_by>
+            <sys_created_on>2016-10-20 09:48:09</sys_created_on>
+            <sys_id>af776ece4fae2e0020450b318110c7fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.simekjir</sys_updated_by>
+            <sys_updated_on>2016-10-20 09:48:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>em_alert_rule</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-11-29 18:45:54</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>f97e4624db72074094e4f3561d96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package/>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-11-29 18:45:54</sys_updated_on>
+            <sys_user display_value="Kelnar Admin Jiri">d03908124f64a200fba400818110c774</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -78,8 +78,11 @@ DynamicWorkflowUtil.prototype = {
 		}
 
 		//Create workflow execution record
-		this._createWorkflowExecution(conf_execution_id,m2m.dynamic_workflow_item.sys_id);
-
+		var confExecution = this._createWorkflowExecution(conf_execution_id,m2m.dynamic_workflow_item.sys_id);
+		
+		//Update workflow execution record state
+		this._updateConfigurationExecutionState(confExecution.sys_id,'In Progress');
+		
 		return arr_items;
 
 	},
@@ -94,11 +97,11 @@ DynamicWorkflowUtil.prototype = {
 		var MAPPING = this._wf.scratchpad.MAPPING;
 		gs.info('DWF - DEBUG - MAPPING keys: ' + Object.keys(MAPPING));
 
-		// Find parameters for the workflow item (both input and output + fill in the default values)
+		// Find 'Input' type parameters for the workflow item + fill in values
 		var defaultParameters = new GlideRecord('x_tieoy_dyn_wf_param');
 		defaultParameters.addQuery('dynamic_workflow_item', item);
+		defaultParameters.addQuery('type', 'Input');
 		defaultParameters.query();
-		
 		
 		while (defaultParameters.next()) {
 			//gs.info('Default workflow parameters: ' + defaultParameters.name + ' = ' + defaultParameters.default_value + ' type: ' + defaultParameters.type);
@@ -107,30 +110,36 @@ DynamicWorkflowUtil.prototype = {
 			parameters.addQuery('dynamic_workflow_parameter', defaultParameters.sys_id);
 			parameters.query();
 
-			parameters.next();
-			
 			var evaluator = new GlideScopedEvaluator();
 			var variable = '';
 
-			if (defaultParameters.type == "Input") {
-				if (parameters.getRowCount() == 1) {					
-					//variable = evaluator.evaluateScript(parameters, 'value', null);
-					variable = evaluator.evaluateScript(parameters, 'value', MAPPING);
-					gs.info('DWF - loadItemWFVariables: Workflow parameter - CUSTOM: Parameter Number: '+parameters.number + '; Item(' + item + ') Parameter name: ' + parameters.dynamic_workflow_parameter.name + ' = ' + parameters.value + ' type: ' + defaultParameters.type + '; value: ' + variable);
-				} else {
-					//variable = evaluator.evaluateScript(defaultParameters, 'default_value', null);
-					variable = evaluator.evaluateScript(defaultParameters, 'default_value', MAPPING);
-					gs.info('DWF - loadItemWFVariables: Workflow parameter - DEFAULT: Item(' + item + ') Parameter name: ' + defaultParameters.name + ' = ' + defaultParameters.default_value + ' type: ' + defaultParameters.type + '; value: ' + variable);
-				}
-								
-				//Set variables
-				vars[defaultParameters.variable_name] = variable+"";
+			if (parameters.getRowCount() == 1) {					
+				//move to parameter
+				parameters.next();
 
-				//Create workflow parameter value record
-				gs.info('DWF - loadItemWFVariables: Create WF Parameter value record: ' + conf_execution_id +", "+ defaultParameters.sys_id +", "+ variable);
-				this._createWorkflowParameterValue(conf_execution_id,defaultParameters.sys_id,variable);
-				
+				//variable = evaluator.evaluateScript(parameters, 'value', null);
+				variable = evaluator.evaluateScript(parameters, 'value', MAPPING);
+				gs.info('DWF - loadItemWFVariables: Workflow parameter - CUSTOM: Parameter Number: '+parameters.number + '; Item(' + item + ') Parameter name: ' + parameters.dynamic_workflow_parameter.name + ' = ' + parameters.value + ' type: ' + defaultParameters.type + '; value: ' + variable);
+
+			} else {
+	
+				//variable = evaluator.evaluateScript(defaultParameters, 'default_value', null);
+				variable = evaluator.evaluateScript(defaultParameters, 'default_value', MAPPING);
+				gs.info('DWF - loadItemWFVariables: Workflow parameter - DEFAULT: Item(' + item + ') Parameter name: ' + defaultParameters.name + ' = ' + defaultParameters.default_value + ' type: ' + defaultParameters.type + '; value: ' + variable);
+	
 			}
+
+			//Validate variable value for requirement - if null or empty string -> event created
+			this._validateParameterFulfilment(defaultParameters,variable);
+
+			//Set variables
+			vars[defaultParameters.variable_name] = variable+"";
+
+			//Create workflow parameter value record
+			gs.info('DWF - loadItemWFVariables: Create WF Parameter value record: ' + conf_execution_id +", "+ defaultParameters.sys_id +", "+ variable);
+			this._createWorkflowParameterValue(conf_execution_id,defaultParameters.sys_id,variable);
+				
+			
 		}
 
 		WFParamList.push(vars);
@@ -179,7 +188,8 @@ DynamicWorkflowUtil.prototype = {
 		}
 	},
 	
-	createEVMEvent: function(description, severity){
+	createEVMEvent: function(description, severity,confExecution_id){
+		//any future logic for message key to be able create unique events? eg Configuration Number + ExecutionNumber 
 		var addEvent = new GlideRecord('em_event');
 		addEvent.initialize();
 		addEvent.short_description = 'Dynamic workflow failure';
@@ -190,9 +200,13 @@ DynamicWorkflowUtil.prototype = {
 		//addEvent.resource = 'Worfklow';
 		addEvent.severity = severity;
 		addEvent.node = this.ERROR_EVENT_CI_NAME;
-		
+		addEvent.cmdb_ci = this.ERROR_EVENT_CI_NAME;
 		addEvent.insert(); 
-
+		
+		//Set configuration execution state to failed
+		//this._updateConfigurationExecutionState(confExecution_id,'Failed');
+		
+		return addEvent;
 	},
 	
 	_createConfigurationExecution: function(conf_id) {
@@ -220,7 +234,29 @@ DynamicWorkflowUtil.prototype = {
         item2exec.dynamic_workflow_execution = confExecution_id;
         item2exec.dynamic_workflow_item = dyn_wf_id;
         item2exec.insert();
+			
         return item2exec;
+	},
+	
+	_updateConfigurationExecutionState: function(confExecution_id,state){
+		var confExecution = new GlideRecord('x_tieoy_dyn_wf_exec');
+		confExecution.get(confExecution_id);
+		confExecution.state = state;
+		confExecution.update();
+		return confExecution;
+	},
+	
+	_validateParameterFulfilment: function(gr_parameter,variable_value){
+		//check for parameter fullfilment
+		//if parameter is required and and value is null of empty string - not valid 
+		if( gr_parameter.required == true && ( variable_value == '' || variable_value == null ) ){
+			var message = "Parameter "+ gr_parameter.name+" is required but is null or empty string.";
+			var severity = 4;
+			this.createEVMEvent(message,severity);
+			
+			return false;				
+		}		
+		return true;
 	},
 
 	type: 'DynamicWorkflowUtil'
@@ -230,7 +266,7 @@ DynamicWorkflowUtil.prototype = {
         <sys_created_on>2017-11-23 11:36:49</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1f92b1a2db6a03001388f9c41d9619c9</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>DynamicWorkflowUtil</sys_name>
         <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
         <sys_policy>read</sys_policy>
@@ -238,6 +274,6 @@ DynamicWorkflowUtil.prototype = {
         <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
         <sys_update_name>sys_script_include_1f92b1a2db6a03001388f9c41d9619c9</sys_update_name>
         <sys_updated_by>admin.kelnajir</sys_updated_by>
-        <sys_updated_on>2017-11-29 10:57:46</sys_updated_on>
+        <sys_updated_on>2017-11-29 15:44:59</sys_updated_on>
     </sys_script_include>
 </record_update>

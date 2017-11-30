@@ -2,18 +2,18 @@
 <record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["531218a0dbb6cb001388f9c41d961979"]}</activity_stages>
+        <activity_stages>{"ends":["3903d664dbb2074094e4f3561d96198a"],"activities":{},"subflows":[],"stages":{}}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
         <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
         <condition/>
-        <condition_type>run_match</condition_type>
+        <condition_type/>
         <description>Create new event using input parameters. Use for testing purposes only.</description>
-        <expected_sequences>171218a0dbb6cb001388f9c41d961977,5b1218a0dbb6cb001388f9c41d96197a,531218a0dbb6cb001388f9c41d961979</expected_sequences>
+        <expected_sequences>7503d664dbb2074094e4f3561d961989,7503d664dbb2074094e4f3561d96198b,3903d664dbb2074094e4f3561d96198a</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>171218a0dbb6cb001388f9c41d961977,5b1218a0dbb6cb001388f9c41d96197a,531218a0dbb6cb001388f9c41d961979</full_sequences>
+        <full_sequences>7503d664dbb2074094e4f3561d961989,7503d664dbb2074094e4f3561d96198b,3903d664dbb2074094e4f3561d96198a</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>Create testing event</name>
@@ -28,13 +28,13 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">171218a0dbb6cb001388f9c41d961977</start>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-29 09:42:36</sys_created_on>
-        <sys_id>4b12d4a0dbb6cb001388f9c41d961962</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-29 09:44:58</sys_updated_on>
+        <start display_value="Begin">7503d664dbb2074094e4f3561d961989</start>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 19:05:51</sys_created_on>
+        <sys_id>b903d664dbb2074094e4f3561d961987</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 23:00:42</sys_updated_on>
         <table>global</table>
         <timezone/>
         <validated>true</validated>
@@ -81,22 +81,22 @@
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-29 09:42:36</sys_created_on>
-        <sys_id>171218a0dbb6cb001388f9c41d961977</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 19:05:51</sys_created_on>
+        <sys_id>7503d664dbb2074094e4f3561d961989</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-29 09:42:36</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 19:05:51</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Create testing event">4b12d4a0dbb6cb001388f9c41d961962</workflow_version>
+        <workflow_version display_value="Create testing event">b903d664dbb2074094e4f3561d961987</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=171218a0dbb6cb001388f9c41d961977"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7503d664dbb2074094e4f3561d961989"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">171218a0dbb6cb001388f9c41d961977</activity>
+        <activity display_value="Begin">7503d664dbb2074094e4f3561d961989</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -109,12 +109,12 @@
         <order>0</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-29 09:42:36</sys_created_on>
-        <sys_id>d71218a0dbb6cb001388f9c41d961978</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 19:05:51</sys_created_on>
+        <sys_id>fd03d664dbb2074094e4f3561d961989</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-29 09:42:36</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 19:05:51</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -131,31 +131,31 @@
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-29 09:42:37</sys_created_on>
-        <sys_id>5b1218a0dbb6cb001388f9c41d96197a</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 19:05:51</sys_created_on>
+        <sys_id>7503d664dbb2074094e4f3561d96198b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-29 09:42:37</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 19:05:51</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Create testing event">4b12d4a0dbb6cb001388f9c41d961962</workflow_version>
+        <workflow_version display_value="Create testing event">b903d664dbb2074094e4f3561d961987</workflow_version>
         <x>227</x>
         <y>52</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=5b1218a0dbb6cb001388f9c41d96197a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7503d664dbb2074094e4f3561d96198b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5b1218a0dbb6cb001388f9c41d96197a</document_key>
+        <document_key>7503d664dbb2074094e4f3561d96198b</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-29 09:42:37</sys_created_on>
-        <sys_id>571218a0dbb6cb001388f9c41d96197b</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 19:05:51</sys_created_on>
+        <sys_id>3d03d664dbb2074094e4f3561d96198b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-29 09:42:37</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 19:05:51</sys_updated_on>
         <value>var addEvent = new GlideRecord('em_event');&#13;
 addEvent.initialize();&#13;
 addEvent.short_description = workflow.inputs.u_short_description;&#13;
@@ -173,15 +173,15 @@ addEvent.insert();</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5b1218a0dbb6cb001388f9c41d96197a</document_key>
+        <document_key>7503d664dbb2074094e4f3561d96198b</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-29 09:42:37</sys_created_on>
-        <sys_id>571218a0dbb6cb001388f9c41d96197b</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 19:05:51</sys_created_on>
+        <sys_id>3d03d664dbb2074094e4f3561d96198b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-29 09:42:37</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 19:05:51</sys_updated_on>
         <value>var addEvent = new GlideRecord('em_event');&#13;
 addEvent.initialize();&#13;
 addEvent.short_description = workflow.inputs.u_short_description;&#13;
@@ -198,7 +198,7 @@ addEvent.insert();</value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Create event">5b1218a0dbb6cb001388f9c41d96197a</activity>
+        <activity display_value="Create event">7503d664dbb2074094e4f3561d96198b</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -211,12 +211,12 @@ addEvent.insert();</value>
         <order>0</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-29 09:42:37</sys_created_on>
-        <sys_id>5b1218a0dbb6cb001388f9c41d96197c</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 19:05:51</sys_created_on>
+        <sys_id>f103d664dbb2074094e4f3561d96198c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-29 09:42:37</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 19:05:51</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -233,41 +233,41 @@ addEvent.insert();</value>
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-29 09:42:36</sys_created_on>
-        <sys_id>531218a0dbb6cb001388f9c41d961979</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 19:05:51</sys_created_on>
+        <sys_id>3903d664dbb2074094e4f3561d96198a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-29 09:42:36</sys_updated_on>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 19:05:51</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Create testing event">4b12d4a0dbb6cb001388f9c41d961962</workflow_version>
+        <workflow_version display_value="Create testing event">b903d664dbb2074094e4f3561d961987</workflow_version>
         <x>400</x>
         <y>150</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=531218a0dbb6cb001388f9c41d961979"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3903d664dbb2074094e4f3561d96198a"/>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">d71218a0dbb6cb001388f9c41d961978</condition>
-        <from display_value="Begin">171218a0dbb6cb001388f9c41d961977</from>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-29 09:42:37</sys_created_on>
-        <sys_id>531218a0dbb6cb001388f9c41d96197e</sys_id>
+        <condition display_value="Always">f103d664dbb2074094e4f3561d96198c</condition>
+        <from display_value="Create event">7503d664dbb2074094e4f3561d96198b</from>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 19:05:51</sys_created_on>
+        <sys_id>7103d664dbb2074094e4f3561d96198e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-29 09:42:37</sys_updated_on>
-        <to display_value="Create event">5b1218a0dbb6cb001388f9c41d96197a</to>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 19:05:51</sys_updated_on>
+        <to display_value="End">3903d664dbb2074094e4f3561d96198a</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">5b1218a0dbb6cb001388f9c41d96197c</condition>
-        <from display_value="Create event">5b1218a0dbb6cb001388f9c41d96197a</from>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-29 09:42:37</sys_created_on>
-        <sys_id>5b1218a0dbb6cb001388f9c41d96197e</sys_id>
+        <condition display_value="Always">fd03d664dbb2074094e4f3561d961989</condition>
+        <from display_value="Begin">7503d664dbb2074094e4f3561d961989</from>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 19:05:51</sys_created_on>
+        <sys_id>b903d664dbb2074094e4f3561d96198d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-29 09:42:37</sys_updated_on>
-        <to display_value="End">531218a0dbb6cb001388f9c41d961979</to>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 19:05:51</sys_updated_on>
+        <to display_value="Create event">7503d664dbb2074094e4f3561d96198b</to>
     </wf_transition>
     <var_dictionary action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1372,15 +1372,15 @@ addEvent.insert();</value>
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
-        <sys_created_by>admin.ivanepav</sys_created_by>
-        <sys_created_on>2017-11-29 09:42:36</sys_created_on>
-        <sys_id>5f12d4a0dbb6cb001388f9c41d961962</sys_id>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2017-11-29 19:05:51</sys_created_on>
+        <sys_id>3d03d664dbb2074094e4f3561d961987</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.ivanepav</sys_updated_by>
-        <sys_updated_on>2017-11-29 09:42:36</sys_updated_on>
-        <workflow_version display_value="Create testing event">4b12d4a0dbb6cb001388f9c41d961962</workflow_version>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2017-11-29 19:05:51</sys_updated_on>
+        <workflow_version display_value="Create testing event">b903d664dbb2074094e4f3561d961987</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=75563704db3e4b001388f9c41d9619de^sys_id!=4b12d4a0dbb6cb001388f9c41d961962">
+    <wf_workflow_version action="update_multiple" query="workflow=75563704db3e4b001388f9c41d9619de^sys_id!=b903d664dbb2074094e4f3561d961987">
         <published>false</published>
     </wf_workflow_version>
 </record_update>
