@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="0756824c4f0b03007d482ed18110c79f" sys_domain="global" table="x_tieoy_dyn_wf_item" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-12-10 15:09:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b56824c4f0b03007d482ed18110c7a5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_tieoy_dyn_wf_item" name="x_tieoy_dyn_wf_item" sys_domain="global" view="Default view">0756824c4f0b03007d482ed18110c79f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_item" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">7777793bdb2ac7001388f9c41d9619b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-10 15:44:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_tieoy_dyn_wf_item</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-12-10 15:09:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0756824c4f0b03007d482ed18110c79f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_tieoy_dyn_wf_item</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0756824c4f0b03007d482ed18110c79f</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-12-10 15:09:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

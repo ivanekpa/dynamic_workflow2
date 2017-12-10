@@ -48,7 +48,6 @@
         <sys_class_name>wf_workflow</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
         <sys_created_on>2017-11-28 13:02:47</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>75563704db3e4b001388f9c41d9619de</sys_id>
@@ -57,7 +56,6 @@
         <sys_overrides/>
         <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
         <sys_update_name>wf_workflow_75563704db3e4b001388f9c41d9619de</sys_update_name>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -327,13 +325,11 @@ addEvent.insert();</value>
         <sys_class_name>var_dictionary</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
         <sys_created_on>2017-11-28 15:01:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>04819014dbbe4b001388f9c41d9619ad</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Message key</sys_name>
         <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
         <sys_update_name>var_dictionary_04819014dbbe4b001388f9c41d9619ad</sys_update_name>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -407,13 +403,11 @@ addEvent.insert();</value>
         <sys_class_name>var_dictionary</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
         <sys_created_on>2017-11-28 13:10:23</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>0ff777c4db3e4b001388f9c41d9619ba</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Node</sys_name>
         <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
         <sys_update_name>var_dictionary_0ff777c4db3e4b001388f9c41d9619ba</sys_update_name>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -487,13 +481,11 @@ addEvent.insert();</value>
         <sys_class_name>var_dictionary</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
         <sys_created_on>2017-11-28 13:08:53</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>13a7bf84db3e4b001388f9c41d9619c5</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Metric name</sys_name>
         <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
         <sys_update_name>var_dictionary_13a7bf84db3e4b001388f9c41d9619c5</sys_update_name>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -567,13 +559,11 @@ addEvent.insert();</value>
         <sys_class_name>var_dictionary</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
         <sys_created_on>2017-11-28 13:09:19</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>2ac773c4db3e4b001388f9c41d961932</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Type</sys_name>
         <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
         <sys_update_name>var_dictionary_2ac773c4db3e4b001388f9c41d961932</sys_update_name>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -647,13 +637,11 @@ addEvent.insert();</value>
         <sys_class_name>var_dictionary</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
         <sys_created_on>2017-11-28 13:08:27</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>49873f84db3e4b001388f9c41d961962</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Source</sys_name>
         <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
         <sys_update_name>var_dictionary_49873f84db3e4b001388f9c41d961962</sys_update_name>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -727,13 +715,11 @@ addEvent.insert();</value>
         <sys_class_name>var_dictionary</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
         <sys_created_on>2017-11-28 13:09:48</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>54e7f3c4db3e4b001388f9c41d961905</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Severity</sys_name>
         <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
         <sys_update_name>var_dictionary_54e7f3c4db3e4b001388f9c41d961905</sys_update_name>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -809,13 +795,11 @@ addEvent.insert();</value>
         <sys_class_name>var_dictionary</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
         <sys_created_on>2017-11-28 13:12:20</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>6a38bbc4db3e4b001388f9c41d961907</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>Additonal information</sys_name>
         <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
         <sys_update_name>var_dictionary_6a38bbc4db3e4b001388f9c41d961907</sys_update_name>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -889,13 +873,11 @@ addEvent.insert();</value>
         <sys_class_name>var_dictionary</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
         <sys_created_on>2017-11-28 13:06:24</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>97967344db3e4b001388f9c41d9619f0</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Short description</sys_name>
         <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
         <sys_update_name>var_dictionary_97967344db3e4b001388f9c41d9619f0</sys_update_name>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -969,13 +951,11 @@ addEvent.insert();</value>
         <sys_class_name>var_dictionary</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
         <sys_created_on>2017-11-28 13:07:37</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>e7373384db3e4b001388f9c41d961943</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Description</sys_name>
         <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
         <sys_update_name>var_dictionary_e7373384db3e4b001388f9c41d961943</sys_update_name>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -1049,13 +1029,11 @@ addEvent.insert();</value>
         <sys_class_name>var_dictionary</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
         <sys_created_on>2017-11-28 13:10:45</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>ef18f7c4db3e4b001388f9c41d9619c1</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Resource</sys_name>
         <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
         <sys_update_name>var_dictionary_ef18f7c4db3e4b001388f9c41d9619c1</sys_update_name>
         <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -1083,13 +1061,11 @@ addEvent.insert();</value>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin.ivanepav</sys_created_by>
             <sys_created_on>2017-11-28 13:10:23</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_id>4918f3c4db3e4b001388f9c41d96198f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Node</sys_name>
             <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
             <sys_update_name>sys_documentation_var__m_var_dictionary_75563704db3e4b001388f9c41d9619de_u_node_en</sys_update_name>
             <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -1110,13 +1086,11 @@ addEvent.insert();</value>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin.ivanepav</sys_created_by>
             <sys_created_on>2017-11-28 13:08:53</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_id>d7b7bf84db3e4b001388f9c41d961911</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Metric name</sys_name>
             <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
             <sys_update_name>sys_documentation_var__m_var_dictionary_75563704db3e4b001388f9c41d9619de_u_metric_name_en</sys_update_name>
             <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -1137,13 +1111,11 @@ addEvent.insert();</value>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin.ivanepav</sys_created_by>
             <sys_created_on>2017-11-28 13:12:21</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_id>ce887bc4db3e4b001388f9c41d96193e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Additonal information</sys_name>
             <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
             <sys_update_name>sys_documentation_var__m_var_dictionary_75563704db3e4b001388f9c41d9619de_u_additonal_information_en</sys_update_name>
             <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -1164,13 +1136,11 @@ addEvent.insert();</value>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin.ivanepav</sys_created_by>
             <sys_created_on>2017-11-28 15:01:10</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_id>c0715014dbbe4b001388f9c41d96190f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Additonal information</sys_name>
             <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
             <sys_update_name>sys_documentation_var__m_var_dictionary_75563704db3e4b001388f9c41d9619de_u_additional_info_en</sys_update_name>
             <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -1191,13 +1161,11 @@ addEvent.insert();</value>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin.ivanepav</sys_created_by>
             <sys_created_on>2017-11-28 13:09:49</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_id>bcf737c4db3e4b001388f9c41d9619cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Severity</sys_name>
             <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
             <sys_update_name>sys_documentation_var__m_var_dictionary_75563704db3e4b001388f9c41d9619de_u_severity_en</sys_update_name>
             <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -1218,13 +1186,11 @@ addEvent.insert();</value>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin.ivanepav</sys_created_by>
             <sys_created_on>2017-11-28 13:10:48</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_id>97283bc4db3e4b001388f9c41d9619ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Resource</sys_name>
             <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
             <sys_update_name>sys_documentation_var__m_var_dictionary_75563704db3e4b001388f9c41d9619de_u_resource_en</sys_update_name>
             <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -1245,13 +1211,11 @@ addEvent.insert();</value>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin.ivanepav</sys_created_by>
             <sys_created_on>2017-11-28 13:08:28</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_id>89a77344db3e4b001388f9c41d961910</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Source</sys_name>
             <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
             <sys_update_name>sys_documentation_var__m_var_dictionary_75563704db3e4b001388f9c41d9619de_u_source_en</sys_update_name>
             <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -1272,13 +1236,11 @@ addEvent.insert();</value>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin.ivanepav</sys_created_by>
             <sys_created_on>2017-11-28 15:01:44</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_id>8491d014dbbe4b001388f9c41d961982</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Message key</sys_name>
             <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
             <sys_update_name>sys_documentation_var__m_var_dictionary_75563704db3e4b001388f9c41d9619de_u_message_key_en</sys_update_name>
             <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -1299,13 +1261,11 @@ addEvent.insert();</value>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin.ivanepav</sys_created_by>
             <sys_created_on>2017-11-28 13:06:27</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_id>6f27bf44db3e4b001388f9c41d961997</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Short description</sys_name>
             <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
             <sys_update_name>sys_documentation_var__m_var_dictionary_75563704db3e4b001388f9c41d9619de_u_short_description_en</sys_update_name>
             <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -1326,13 +1286,11 @@ addEvent.insert();</value>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin.ivanepav</sys_created_by>
             <sys_created_on>2017-11-28 13:09:21</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_id>4ed733c4db3e4b001388f9c41d96190e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Type</sys_name>
             <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
             <sys_update_name>sys_documentation_var__m_var_dictionary_75563704db3e4b001388f9c41d9619de_u_type_en</sys_update_name>
             <sys_updated_by>admin.ivanepav</sys_updated_by>
@@ -1353,13 +1311,11 @@ addEvent.insert();</value>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin.ivanepav</sys_created_by>
             <sys_created_on>2017-11-28 13:07:38</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_id>fc77bb84db3e4b001388f9c41d9619f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Description</sys_name>
             <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
             <sys_update_name>sys_documentation_var__m_var_dictionary_75563704db3e4b001388f9c41d9619de_u_description_en</sys_update_name>
             <sys_updated_by>admin.ivanepav</sys_updated_by>
