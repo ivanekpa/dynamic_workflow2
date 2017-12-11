@@ -23,14 +23,14 @@
         <sys_created_by>admin.ivanepav</sys_created_by>
         <sys_created_on>2017-11-23 10:30:07</sys_created_on>
         <sys_id>e473a9eedbe603001388f9c41d961988</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_updated_by>admin.kelnajir</sys_updated_by>
-        <sys_updated_on>2017-11-30 21:51:43</sys_updated_on>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin.ivanepav</sys_updated_by>
+        <sys_updated_on>2017-12-11 09:58:43</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.3</version>
+        <version>1.0.6</version>
     </sys_app>
 </record_update>

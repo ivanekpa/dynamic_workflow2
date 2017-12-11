@@ -4,11 +4,13 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin.ivanepav</sys_created_by>
         <sys_created_on>2017-11-23 10:46:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>2237ed26db2a03001388f9c41d961947</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>x_tieoy_dyn_wf_param.workflow_admin</sys_name>
         <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
         <sys_security_acl display_value="x_tieoy_dyn_wf_param">9237ed26db2a03001388f9c41d96190a</sys_security_acl>
         <sys_update_name>sys_security_acl_role_2237ed26db2a03001388f9c41d961947</sys_update_name>
